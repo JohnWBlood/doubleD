@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Districts</name>
+	<gx:CascadingStyle kml:id="__managed_style_0FF2EEB71A128B8C901C">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2006&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+body {background-color: #202124;}
+</style>
+<body>
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/fac1.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/fac2.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/fac3.PNG" style="width:450px" onclick="plusDivs(1)">
+
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>]]></text>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1DAA741CF2128B8C901B">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2006&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+body {background-color: #202124;}
+</style>
+<body>
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/fac1.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/fac2.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/fac3.PNG" style="width:450px" onclick="plusDivs(1)">
+
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>]]></text>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0F4C208DCE128B8C901B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1DAA741CF2128B8C901B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0FF2EEB71A128B8C901C</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2BD93DB17D128B8C9019">
+		<Style>
+			<IconStyle>
+				<scale>2.4</scale>
+				<Icon>
+					<href>data:image/png;base64,R0lGODlh-gD6AOezAHUAAHcDAcUFBOEABPMCBv0AAv4ABDg6ODk7OTs9Ojw-Oz0_PD5APT9BPj9BP0BCQEFDQEJEQUNFQkRGQ0VHREZIReUbG0dJRkhJR0hKSEpMSUtNSkxOS01PTE5QTU9RTlBST1FTUFJUUVNVUlNVU1RWVFVXVVZYVVdZVlhaV1lbWFpcWVtdWlxeW15gXWRfXl9hXmBiX2ZhYGFjYGJkYWJlYmNmY2RmZGVnZWZoZmdpZmhqZ2psaWttam1vbG5wbW9xbnRwbnByb3FzcHN1cnR2c3Z4dXd5dnl7eHp8eXt9enx-e31_fIN-fX6AfYR_fn-BfoCCf4GDgIKEgYiDgoOFgoSGg4WHhIeJhoiKh4mLiIqMiYuNipGMi4yOi42PjI6QjY-RjpCSj5GTkJKUkZOVkpSWk5WXlJaYlZeZlpial5mcmJqdmZuempyfnJ2gnZ6hnqCin6GjoKKkoaOloqSmo6WnpKaopaeppqiqp6mrqKqsqautqqyuq62vrK6xra-yrrCzr7G0sLK1srS2s7W3tLa4tbe5trm7uLq8ubu9ury-u72_vL7Bvb_CvsDDv8HEwcPFwsTGw8XHxMbIxcfJxsjKx8nLyMrMycvOyszPy83QzM7RztDSz9HT0NLU0dPV0tTW09XX1NbZ1dfa1tjb19_a2dnc2dvd2tze293f3N7g3d_h3uDj3-Hk4OLl4ePm4uXn5Obo5f___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________yH-EUNyZWF0ZWQgd2l0aCBHSU1QACH5BAEKAP8ALAAAAAD6APoAAAj-AP8JHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8-fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOK3WnAwL-yZ82iXau2bdqxcCuWnUu3rt27d-PqXYi3r9-_ZvcKFgi4sOG5g_UeXlw48djFcvE6_uqXsOSIfydvzTywL-bKmq02Juj5Id20dkNL9VzXYOmGp1GnVt30smyFrxO2tjybdlLbu3XbFo62c17fR4fHZpjbNWLSx5EPjW78OfPhBYNXXy7dJ_WBALT-X_--HSH57jaxbw_8-bt46L3R11S_PnL89_Dxy3dJn7f1iaXpt95_-7XUXHbcURQggQcdWOBJ_eXH3kWGwXbegyNd2CCDFgFmmoAYfqShcxxSmJtbbTkYokfxWVgci4xVuKJII5I4YUcxyjijiDXmh2OOC5a4o4kqSpgRkBqCOKSCoBF3Y3tIQpTgkhi1NqKSrsnWWJE2Pkmlfez1h6WWh0k4pn9fasQdfVN26aF5TfIlZJofEqiefhW-6GSERtIJJpy93aejlM_12KafLpZ4WXCDSrTclWci2ueeknnoJZRmXuqfppIiRMChmZbJUYJJzkVAp3XOOeBoP9rZYn3-qDoEKqCcgTTlhbPGCmuqPVZ56Kta6ipnWQHwyuWRoH4XQK6xjpnjWTzO6R6znWKJpJ5q5kpdpH5qK2OcvqpK5oTUSopnkC_WSiS2tBZabrdtNvdeX5-uy6mZuwqb76a3_gouoeIOuKm-k67KbrDmjRtwlwC7u_CX2vHpbF8ANHyvmwgTzGiNZ7453sHD8omolb1ym2JdAiR68YYiw8sWsCyDHDLM-xr78JKsfrxyuwJyG6rMLreM4M08c-jzzxofG_POM_dL9NBHh6h0uxud-G7RTM8oNNWt7hY11E9j2Oue0XoddqjC0izr1RZvzVjaautMI7gnAwn32AxnWOn-tXhr_a_cJPENma45A6634GuyvWLhuCm-9rWPA03naVNnnG2MHZ4tdmx_F8ykwoxbTPBtaJMNZmHhbR3z6JaDzjWUOXc-M-vzsvlu3XsvHffSrJPupqsBi9o4YrtD3XvrpQ9MaeUIF6887d7Ohh_ufT_v_Nc7Wrs3tqHziq_h0EvOb3Tdi_798FlPXm5m6obLrtrY43zzszAeDKLjabItfP0g96w5lUfzWNkoxbvj-aht-MOU6YxnQIGpTHV_Qt-NnIcq7e2Pf7PznAHvR78BZvB5DUQT1gLTvqqJS3oJDNoIDZZCWkUuTP9TH_Bqly4KquyFyAth4oC1wxYeMHL-vguhkSJEKhtK0GbiC5_sWgfB1-kshiMroY1-l74pIlCIK0xU0TI3PyPqS3XJ8mLNPojFvHkPa45SnA8raMNZNdFk8bvb-pjVt0iJsXctm5gdqVU9HXJsjnpMYh-xSMQ90jF6cWxgIbuISE41sYzJAxvsHBnGO0JyVQVs2wLBlsRLPtFLjoPZ9Czpyd9JMo3xKmIiS8lJcmnuVapcIytbScIEtuhRg5xlQSIwhUKULoWBmssAxldFXRpkBW1gxCZWYQoWxjAvpylALo1JkAUUIRCTEEUsSvGIPBCzhakRIDUp4oExLEITqojFJgwhBy4gQQcWWOILxTlOiShgB3r-kAQoYoGKSPABDVMQAgoU4Dr3ybOeDZmAFRCRiVTIYhOHmMMXkICDCTgTcVJEaERaEIdIfAIWqpCEH9RgBSCYgKA_w-g0NToQBhyhEJZAhSw8gQg6gCEJNpCA7lS6UpYKBARmiIQnXrGKSQBCDVcAQgkkyFMo-pQBPPCDJUohC1Aowg5iUAINIPBAvvmUIxXIAiM64YpWVCIQbcjCD0TwVaO4oA6VIIUsRMGIO4xhCTFoQFuJ0oAkIGITrHCFJQiRVh-AYK9EEYEaJjEKWZCCEXkowxJcwADECqUBPhDEMmGRiULEQQs96IBlhXKBLURCFLLg5h7MsIQUJGC0QYH-AR7Qqc5CtHMHGIAtUPq6iH32sw9oWIIJDqDbn4RADZZwKETn4IUdVKC4PmlADwjx0ZCOlAnDhW5PKKAFSlCVpnT4wg4sql2euAAPQ2UFJY7qhBGUlycPUIIjqGpVO4RhB1x9r05EwIZNlPWsbYACW_WrEx8cQq50vYMYdvAAAuekAl6wRGAHG4coDNjBN4lBHxr72DyMQQeVxbBNIOCESayCs56FwgdEfBMRxCEUqX3EHsiAAwSw2CZAUEQ61ykHKIj2xjS5QBg6wc9I9MEMOCAukGdCA0DIdLlR-PGSYxKBKFgCpCI9Qw6mPJMSzOG7NZUCB7gskyE44hXqBQT-GrZMZphggAyora-Y2wwTGxCiFa2wRCDUwGY6t2QCVdjEXOs6hQ342SUmsMMqXjFYNdzg0C4hwiQc64g8OCEDkGZJBsxQChSnYQaZZokNDhFjPTDhAqFWiUI_oU5DqAHUqU6JCfDwilT40wmxVkkRKiGLThzi1blGiQbQsIqQ9gHXwT4JDhIxU0SwIQbJNskFsjAK9foBCtE2yQn2EAurtgHW2R7JETIhWEBgO9wj4QAbWkHXNkAb3SLRASMYHYglwHskWygFKRzBhhbcOyQo8IMrNEEIJfw7JEjYBDfbcHCQeCAOq9gEIezdcI_sIBL9ZHjFPdKFUnSiEBTf-EboVCCIVEgiDiLvyBI64QlDhDzlGPmAHEpBCZTDXCM8iAQoDvHym1sEDKGwhMZ9fhEVBAIUhiB6RpJgCUukQekX8UB_fQl1i-CAEJYwQ9UtQgVFAGLrFSmBGgjhBbBTBAh1sLnZI6KBK8RBCmuXiAvCEIa4S4QIYECC3SECgiZUYe8QqcETAA-RHxiB8A4ZQRAQ75AX6IDxDZEB5BnyARZMfiGHvbxCMK35znv-86APvehHT_rSm_70qE-96lfP-ta7_vWwj73sZ0_72tv-9rjPve53z_ve-_73wA--8IdP_OIb__jIN2BAAAA7</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+body {background-color: #202124;}
+</style>
+<body>
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/fac1.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/fac2.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/fac3.PNG" style="width:450px" onclick="plusDivs(1)">
+
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>]]></text>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_2ABBF34228128B8C901A">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>0.9</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=ef5350&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_051311C5CA128B8C9019">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1C8DE2B576128B8C9019</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2BD93DB17D128B8C9019</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3AEE3D77FD128B8C9018">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_41DDA71ADC128B8C9018</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_55D8B9225D128B8C9018</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2C0BBE2C34128B8C9018">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff9f3f30</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40c6c1bd</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+body {background-color: #202124;}
+</style>
+<body>
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist1.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist2.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist3.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist4.PNG" style="width:450px" onclick="plusDivs(1)">
+    <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist5.PNG" style="width:450px" onclick="plusDivs(1)">
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1C8DE2B576128B8C9019">
+		<Style>
+			<IconStyle>
+				<scale>2</scale>
+				<Icon>
+					<href>data:image/png;base64,R0lGODlh-gD6AOezAHUAAHcDAcUFBOEABPMCBv0AAv4ABDg6ODk7OTs9Ojw-Oz0_PD5APT9BPj9BP0BCQEFDQEJEQUNFQkRGQ0VHREZIReUbG0dJRkhJR0hKSEpMSUtNSkxOS01PTE5QTU9RTlBST1FTUFJUUVNVUlNVU1RWVFVXVVZYVVdZVlhaV1lbWFpcWVtdWlxeW15gXWRfXl9hXmBiX2ZhYGFjYGJkYWJlYmNmY2RmZGVnZWZoZmdpZmhqZ2psaWttam1vbG5wbW9xbnRwbnByb3FzcHN1cnR2c3Z4dXd5dnl7eHp8eXt9enx-e31_fIN-fX6AfYR_fn-BfoCCf4GDgIKEgYiDgoOFgoSGg4WHhIeJhoiKh4mLiIqMiYuNipGMi4yOi42PjI6QjY-RjpCSj5GTkJKUkZOVkpSWk5WXlJaYlZeZlpial5mcmJqdmZuempyfnJ2gnZ6hnqCin6GjoKKkoaOloqSmo6WnpKaopaeppqiqp6mrqKqsqautqqyuq62vrK6xra-yrrCzr7G0sLK1srS2s7W3tLa4tbe5trm7uLq8ubu9ury-u72_vL7Bvb_CvsDDv8HEwcPFwsTGw8XHxMbIxcfJxsjKx8nLyMrMycvOyszPy83QzM7RztDSz9HT0NLU0dPV0tTW09XX1NbZ1dfa1tjb19_a2dnc2dvd2tze293f3N7g3d_h3uDj3-Hk4OLl4ePm4uXn5Obo5f___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________yH-EUNyZWF0ZWQgd2l0aCBHSU1QACH5BAEKAP8ALAAAAAD6APoAAAj-AP8JHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8-fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOK3WnAwL-yZ82iXau2bdqxcCuWnUu3rt27d-PqXYi3r9-_ZvcKFgi4sOG5g_UeXlw48djFcvE6_uqXsOSIfydvzTywL-bKmq02Juj5Id20dkNL9VzXYOmGp1GnVt30smyFrxO2tjybdlLbu3XbFo62c17fR4fHZpjbNWLSx5EPjW78OfPhBYNXXy7dJ_WBALT-X_--HSH57jaxbw_8-bt46L3R11S_PnL89_Dxy3dJn7f1iaXpt95_-7XUXHbcURQggQcdWOBJ_eXH3kWGwXbegyNd2CCDFgFmmoAYfqShcxxSmJtbbTkYokfxWVgci4xVuKJII5I4YUcxyjijiDXmh2OOC5a4o4kqSpgRkBqCOKSCoBF3Y3tIQpTgkhi1NqKSrsnWWJE2Pkmlfez1h6WWh0k4pn9fasQdfVN26aF5TfIlZJofEqiefhW-6GSERtIJJpy93aejlM_12KafLpZ4WXCDSrTclWci2ueeknnoJZRmXuqfppIiRMChmZbJUYJJzkVAp3XOOeBoP9rZYn3-qDoEKqCcgTTlhbPGCmuqPVZ56Kta6ipnWQHwyuWRoH4XQK6xjpnjWTzO6R6znWKJpJ5q5kpdpH5qK2OcvqpK5oTUSopnkC_WSiS2tBZabrdtNvdeX5-uy6mZuwqb76a3_gouoeIOuKm-k67KbrDmjRtwlwC7u_CX2vHpbF8ANHyvmwgTzGiNZ7453sHD8omolb1ym2JdAiR68YYiw8sWsCyDHDLM-xr78JKsfrxyuwJyG6rMLreM4M08c-jzzxofG_POM_dL9NBHh6h0uxud-G7RTM8oNNWt7hY11E9j2Oue0XoddqjC0izr1RZvzVjaautMI7gnAwn32AxnWOn-tXhr_a_cJPENma45A6634GuyvWLhuCm-9rWPA03naVNnnG2MHZ4tdmx_F8ykwoxbTPBtaJMNZmHhbR3z6JaDzjWUOXc-M-vzsvlu3XsvHffSrJPupqsBi9o4YrtD3XvrpQ9MaeUIF6887d7Ohh_ufT_v_Nc7Wrs3tqHziq_h0EvOb3Tdi_798FlPXm5m6obLrtrY43zzszAeDKLjabItfP0g96w5lUfzWNkoxbvj-aht-MOU6YxnQIGpTHV_Qt-NnIcq7e2Pf7PznAHvR78BZvB5DUQT1gLTvqqJS3oJDNoIDZZCWkUuTP9TH_Bqly4KquyFyAth4oC1wxYeMHL-vguhkSJEKhtK0GbiC5_sWgfB1-kshiMroY1-l74pIlCIK0xU0TI3PyPqS3XJ8mLNPojFvHkPa45SnA8raMNZNdFk8bvb-pjVt0iJsXctm5gdqVU9HXJsjnpMYh-xSMQ90jF6cWxgIbuISE41sYzJAxvsHBnGO0JyVQVs2wLBlsRLPtFLjoPZ9Czpyd9JMo3xKmIiS8lJcmnuVapcIytbScIEtuhRg5xlQSIwhUKULoWBmssAxldFXRpkBW1gxCZWYQoWxjAvpylALo1JkAUUIRCTEEUsSvGIPBCzhakRIDUp4oExLEITqojFJgwhBy4gQQcWWOILxTlOiShgB3r-kAQoYoGKSPABDVMQAgoU4Dr3ybOeDZmAFRCRiVTIYhOHmMMXkICDCTgTcVJEaERaEIdIfAIWqpCEH9RgBSCYgKA_w-g0NToQBhyhEJZAhSw8gQg6gCEJNpCA7lS6UpYKBARmiIQnXrGKSQBCDVcAQgkkyFMo-pQBPPCDJUohC1Aowg5iUAINIPBAvvmUIxXIAiM64YpWVCIQbcjCD0TwVaO4oA6VIIUsRMGIO4xhCTFoQFuJ0oAkIGITrHCFJQiRVh-AYK9EEYEaJjEKWZCCEXkowxJcwADECqUBPhDEMmGRiULEQQs96IBlhXKBLURCFLLg5h7MsIQUJGC0QYH-AR7Qqc5CtHMHGIAtUPq6iH32sw9oWIIJDqDbn4RADZZwKETn4IUdVKC4PmlADwjx0ZCOlAnDhW5PKKAFSlCVpnT4wg4sql2euAAPQ2UFJY7qhBGUlycPUIIjqGpVO4RhB1x9r05EwIZNlPWsbYACW_WrEx8cQq50vYMYdvAAAuekAl6wRGAHG4coDNjBN4lBHxr72DyMQQeVxbBNIOCESayCs56FwgdEfBMRxCEUqX3EHsiAAwSw2CZAUEQ61ykHKIj2xjS5QBg6wc9I9MEMOCAukGdCA0DIdLlR-PGSYxKBKFgCpCI9Qw6mPJMSzOG7NZUCB7gskyE44hXqBQT-GrZMZphggAyora-Y2wwTGxCiFa2wRCDUwGY6t2QCVdjEXOs6hQ342SUmsMMqXjFYNdzg0C4hwiQc64g8OCEDkGZJBsxQChSnYQaZZokNDhFjPTDhAqFWiUI_oU5DqAHUqU6JCfDwilT40wmxVkkRKiGLThzi1blGiQbQsIqQ9gHXwT4JDhIxU0SwIQbJNskFsjAK9foBCtE2yQn2EAurtgHW2R7JETIhWEBgO9wj4QAbWkHXNkAb3SLRASMYHYglwHskWygFKRzBhhbcOyQo8IMrNEEIJfw7JEjYBDfbcHCQeCAOq9gEIezdcI_sIBL9ZHjFPdKFUnSiEBTf-EboVCCIVEgiDiLvyBI64QlDhDzlGPmAHEpBCZTDXCM8iAQoDvHym1sEDKGwhMZ9fhEVBAIUhiB6RpJgCUukQekX8UB_fQl1i-CAEJYwQ9UtQgVFAGLrFSmBGgjhBbBTBAh1sLnZI6KBK8RBCmuXiAvCEIa4S4QIYECC3SECgiZUYe8QqcETAA-RHxiB8A4ZQRAQ75AX6IDxDZEB5BnyARZMfiGHvbxCMK35znv-86APvehHT_rSm_70qE-96lfP-ta7_vWwj73sZ0_72tv-9rjPve53z_ve-_73wA--8IdP_OIb__jIN2BAAAA7</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+body {background-color: #202124;}
+</style>
+<body>
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/fac1.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/fac2.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/fac3.PNG" style="width:450px" onclick="plusDivs(1)">
+
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>]]></text>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_09A1A59A43128B8C9016">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_03BA6B7C00128B8C9017</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_1BAEC8F923128B8C9017</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_2E12157650128B8C9017">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_3AF10B6687128B8C9017</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_4F5D587D23128B8C9017</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1FBEAF1BD0128B8C9018">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff9f3f30</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40c6c1bd</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+body {background-color: #202124;}
+</style>
+<body>
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist1.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist2.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist3.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist4.PNG" style="width:450px" onclick="plusDivs(1)">
+    <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist5.PNG" style="width:450px" onclick="plusDivs(1)">
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_12E7EC3E74128B8C901A">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>0.75</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=ef5350&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_4F5D587D23128B8C9017">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff9f3f30</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40c6c1bd</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+body {background-color: #202124;}
+</style>
+<body>
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist1.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist2.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist3.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist4.PNG" style="width:450px" onclick="plusDivs(1)">
+    <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist5.PNG" style="width:450px" onclick="plusDivs(1)">
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>]]></text>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_3AF10B6687128B8C9017">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff9f3f30</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40c6c1bd</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+body {background-color: #202124;}
+</style>
+<body>
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist1.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist2.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist3.PNG" style="width:450px" onclick="plusDivs(1)">
+  <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist4.PNG" style="width:450px" onclick="plusDivs(1)">
+    <img class="mySlides" src="https://johnwblood.github.io/doubleD/dist5.PNG" style="width:450px" onclick="plusDivs(1)">
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>]]></text>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0D17CF739E128B8C9018">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1FBEAF1BD0128B8C9018</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2C0BBE2C34128B8C9018</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1BAEC8F923128B8C9017">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_03BA6B7C00128B8C9017">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_029443C2EE128B8C901A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_12E7EC3E74128B8C901A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2ABBF34228128B8C901A</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_55D8B9225D128B8C9018">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>2.4</scale>
+				<Icon>
+					<href>data:image/png;base64,R0lGODlh-gD6AOezAHUAAHcDAcUFBOEABPMCBv0AAv4ABDg6ODk7OTs9Ojw-Oz0_PD5APT9BPj9BP0BCQEFDQEJEQUNFQkRGQ0VHREZIReUbG0dJRkhJR0hKSEpMSUtNSkxOS01PTE5QTU9RTlBST1FTUFJUUVNVUlNVU1RWVFVXVVZYVVdZVlhaV1lbWFpcWVtdWlxeW15gXWRfXl9hXmBiX2ZhYGFjYGJkYWJlYmNmY2RmZGVnZWZoZmdpZmhqZ2psaWttam1vbG5wbW9xbnRwbnByb3FzcHN1cnR2c3Z4dXd5dnl7eHp8eXt9enx-e31_fIN-fX6AfYR_fn-BfoCCf4GDgIKEgYiDgoOFgoSGg4WHhIeJhoiKh4mLiIqMiYuNipGMi4yOi42PjI6QjY-RjpCSj5GTkJKUkZOVkpSWk5WXlJaYlZeZlpial5mcmJqdmZuempyfnJ2gnZ6hnqCin6GjoKKkoaOloqSmo6WnpKaopaeppqiqp6mrqKqsqautqqyuq62vrK6xra-yrrCzr7G0sLK1srS2s7W3tLa4tbe5trm7uLq8ubu9ury-u72_vL7Bvb_CvsDDv8HEwcPFwsTGw8XHxMbIxcfJxsjKx8nLyMrMycvOyszPy83QzM7RztDSz9HT0NLU0dPV0tTW09XX1NbZ1dfa1tjb19_a2dnc2dvd2tze293f3N7g3d_h3uDj3-Hk4OLl4ePm4uXn5Obo5f___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________yH-EUNyZWF0ZWQgd2l0aCBHSU1QACH5BAEKAP8ALAAAAAD6APoAAAj-AP8JHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8-fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOK3WnAwL-yZ82iXau2bdqxcCuWnUu3rt27d-PqXYi3r9-_ZvcKFgi4sOG5g_UeXlw48djFcvE6_uqXsOSIfydvzTywL-bKmq02Juj5Id20dkNL9VzXYOmGp1GnVt30smyFrxO2tjybdlLbu3XbFo62c17fR4fHZpjbNWLSx5EPjW78OfPhBYNXXy7dJ_WBALT-X_--HSH57jaxbw_8-bt46L3R11S_PnL89_Dxy3dJn7f1iaXpt95_-7XUXHbcURQggQcdWOBJ_eXH3kWGwXbegyNd2CCDFgFmmoAYfqShcxxSmJtbbTkYokfxWVgci4xVuKJII5I4YUcxyjijiDXmh2OOC5a4o4kqSpgRkBqCOKSCoBF3Y3tIQpTgkhi1NqKSrsnWWJE2Pkmlfez1h6WWh0k4pn9fasQdfVN26aF5TfIlZJofEqiefhW-6GSERtIJJpy93aejlM_12KafLpZ4WXCDSrTclWci2ueeknnoJZRmXuqfppIiRMChmZbJUYJJzkVAp3XOOeBoP9rZYn3-qDoEKqCcgTTlhbPGCmuqPVZ56Kta6ipnWQHwyuWRoH4XQK6xjpnjWTzO6R6znWKJpJ5q5kpdpH5qK2OcvqpK5oTUSopnkC_WSiS2tBZabrdtNvdeX5-uy6mZuwqb76a3_gouoeIOuKm-k67KbrDmjRtwlwC7u_CX2vHpbF8ANHyvmwgTzGiNZ7453sHD8omolb1ym2JdAiR68YYiw8sWsCyDHDLM-xr78JKsfrxyuwJyG6rMLreM4M08c-jzzxofG_POM_dL9NBHh6h0uxud-G7RTM8oNNWt7hY11E9j2Oue0XoddqjC0izr1RZvzVjaautMI7gnAwn32AxnWOn-tXhr_a_cJPENma45A6634GuyvWLhuCm-9rWPA03naVNnnG2MHZ4tdmx_F8ykwoxbTPBtaJMNZmHhbR3z6JaDzjWUOXc-M-vzsvlu3XsvHffSrJPupqsBi9o4YrtD3XvrpQ9MaeUIF6887d7Ohh_ufT_v_Nc7Wrs3tqHziq_h0EvOb3Tdi_798FlPXm5m6obLrtrY43zzszAeDKLjabItfP0g96w5lUfzWNkoxbvj-aht-MOU6YxnQIGpTHV_Qt-NnIcq7e2Pf7PznAHvR78BZvB5DUQT1gLTvqqJS3oJDNoIDZZCWkUuTP9TH_Bqly4KquyFyAth4oC1wxYeMHL-vguhkSJEKhtK0GbiC5_sWgfB1-kshiMroY1-l74pIlCIK0xU0TI3PyPqS3XJ8mLNPojFvHkPa45SnA8raMNZNdFk8bvb-pjVt0iJsXctm5gdqVU9HXJsjnpMYh-xSMQ90jF6cWxgIbuISE41sYzJAxvsHBnGO0JyVQVs2wLBlsRLPtFLjoPZ9Czpyd9JMo3xKmIiS8lJcmnuVapcIytbScIEtuhRg5xlQSIwhUKULoWBmssAxldFXRpkBW1gxCZWYQoWxjAvpylALo1JkAUUIRCTEEUsSvGIPBCzhakRIDUp4oExLEITqojFJgwhBy4gQQcWWOILxTlOiShgB3r-kAQoYoGKSPABDVMQAgoU4Dr3ybOeDZmAFRCRiVTIYhOHmMMXkICDCTgTcVJEaERaEIdIfAIWqpCEH9RgBSCYgKA_w-g0NToQBhyhEJZAhSw8gQg6gCEJNpCA7lS6UpYKBARmiIQnXrGKSQBCDVcAQgkkyFMo-pQBPPCDJUohC1Aowg5iUAINIPBAvvmUIxXIAiM64YpWVCIQbcjCD0TwVaO4oA6VIIUsRMGIO4xhCTFoQFuJ0oAkIGITrHCFJQiRVh-AYK9EEYEaJjEKWZCCEXkowxJcwADECqUBPhDEMmGRiULEQQs96IBlhXKBLURCFLLg5h7MsIQUJGC0QYH-AR7Qqc5CtHMHGIAtUPq6iH32sw9oWIIJDqDbn4RADZZwKETn4IUdVKC4PmlADwjx0ZCOlAnDhW5PKKAFSlCVpnT4wg4sql2euAAPQ2UFJY7qhBGUlycPUIIjqGpVO4RhB1x9r05EwIZNlPWsbYACW_WrEx8cQq50vYMYdvAAAuekAl6wRGAHG4coDNjBN4lBHxr72DyMQQeVxbBNIOCESayCs56FwgdEfBMRxCEUqX3EHsiAAwSw2CZAUEQ61ykHKIj2xjS5QBg6wc9I9MEMOCAukGdCA0DIdLlR-PGSYxKBKFgCpCI9Qw6mPJMSzOG7NZUCB7gskyE44hXqBQT-GrZMZphggAyora-Y2wwTGxCiFa2wRCDUwGY6t2QCVdjEXOs6hQ342SUmsMMqXjFYNdzg0C4hwiQc64g8OCEDkGZJBsxQChSnYQaZZokNDhFjPTDhAqFWiUI_oU5DqAHUqU6JCfDwilT40wmxVkkRKiGLThzi1blGiQbQsIqQ9gHXwT4JDhIxU0SwIQbJNskFsjAK9foBCtE2yQn2EAurtgHW2R7JETIhWEBgO9wj4QAbWkHXNkAb3SLRASMYHYglwHskWygFKRzBhhbcOyQo8IMrNEEIJfw7JEjYBDfbcHCQeCAOq9gEIezdcI_sIBL9ZHjFPdKFUnSiEBTf-EboVCCIVEgiDiLvyBI64QlDhDzlGPmAHEpBCZTDXCM8iAQoDvHym1sEDKGwhMZ9fhEVBAIUhiB6RpJgCUukQekX8UB_fQl1i-CAEJYwQ9UtQgVFAGLrFSmBGgjhBbBTBAh1sLnZI6KBK8RBCmuXiAvCEIa4S4QIYECC3SECgiZUYe8QqcETAA-RHxiB8A4ZQRAQ75AX6IDxDZEB5BnyARZMfiGHvbxCMK35znv-86APvehHT_rSm_70qE-96lfP-ta7_vWwj73sZ0_72tv-9rjPve53z_ve-_73wA--8IdP_OIb__jIN2BAAAA7</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_41DDA71ADC128B8C9018">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>2</scale>
+				<Icon>
+					<href>data:image/png;base64,R0lGODlh-gD6AOezAHUAAHcDAcUFBOEABPMCBv0AAv4ABDg6ODk7OTs9Ojw-Oz0_PD5APT9BPj9BP0BCQEFDQEJEQUNFQkRGQ0VHREZIReUbG0dJRkhJR0hKSEpMSUtNSkxOS01PTE5QTU9RTlBST1FTUFJUUVNVUlNVU1RWVFVXVVZYVVdZVlhaV1lbWFpcWVtdWlxeW15gXWRfXl9hXmBiX2ZhYGFjYGJkYWJlYmNmY2RmZGVnZWZoZmdpZmhqZ2psaWttam1vbG5wbW9xbnRwbnByb3FzcHN1cnR2c3Z4dXd5dnl7eHp8eXt9enx-e31_fIN-fX6AfYR_fn-BfoCCf4GDgIKEgYiDgoOFgoSGg4WHhIeJhoiKh4mLiIqMiYuNipGMi4yOi42PjI6QjY-RjpCSj5GTkJKUkZOVkpSWk5WXlJaYlZeZlpial5mcmJqdmZuempyfnJ2gnZ6hnqCin6GjoKKkoaOloqSmo6WnpKaopaeppqiqp6mrqKqsqautqqyuq62vrK6xra-yrrCzr7G0sLK1srS2s7W3tLa4tbe5trm7uLq8ubu9ury-u72_vL7Bvb_CvsDDv8HEwcPFwsTGw8XHxMbIxcfJxsjKx8nLyMrMycvOyszPy83QzM7RztDSz9HT0NLU0dPV0tTW09XX1NbZ1dfa1tjb19_a2dnc2dvd2tze293f3N7g3d_h3uDj3-Hk4OLl4ePm4uXn5Obo5f___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________yH-EUNyZWF0ZWQgd2l0aCBHSU1QACH5BAEKAP8ALAAAAAD6APoAAAj-AP8JHEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmTKFOqXMmypcuXMGPKnEmzps2bOHPq3Mmzp8-fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWrWLNq3cq1q9evYMOK3WnAwL-yZ82iXau2bdqxcCuWnUu3rt27d-PqXYi3r9-_ZvcKFgi4sOG5g_UeXlw48djFcvE6_uqXsOSIfydvzTywL-bKmq02Juj5Id20dkNL9VzXYOmGp1GnVt30smyFrxO2tjybdlLbu3XbFo62c17fR4fHZpjbNWLSx5EPjW78OfPhBYNXXy7dJ_WBALT-X_--HSH57jaxbw_8-bt46L3R11S_PnL89_Dxy3dJn7f1iaXpt95_-7XUXHbcURQggQcdWOBJ_eXH3kWGwXbegyNd2CCDFgFmmoAYfqShcxxSmJtbbTkYokfxWVgci4xVuKJII5I4YUcxyjijiDXmh2OOC5a4o4kqSpgRkBqCOKSCoBF3Y3tIQpTgkhi1NqKSrsnWWJE2Pkmlfez1h6WWh0k4pn9fasQdfVN26aF5TfIlZJofEqiefhW-6GSERtIJJpy93aejlM_12KafLpZ4WXCDSrTclWci2ueeknnoJZRmXuqfppIiRMChmZbJUYJJzkVAp3XOOeBoP9rZYn3-qDoEKqCcgTTlhbPGCmuqPVZ56Kta6ipnWQHwyuWRoH4XQK6xjpnjWTzO6R6znWKJpJ5q5kpdpH5qK2OcvqpK5oTUSopnkC_WSiS2tBZabrdtNvdeX5-uy6mZuwqb76a3_gouoeIOuKm-k67KbrDmjRtwlwC7u_CX2vHpbF8ANHyvmwgTzGiNZ7453sHD8omolb1ym2JdAiR68YYiw8sWsCyDHDLM-xr78JKsfrxyuwJyG6rMLreM4M08c-jzzxofG_POM_dL9NBHh6h0uxud-G7RTM8oNNWt7hY11E9j2Oue0XoddqjC0izr1RZvzVjaautMI7gnAwn32AxnWOn-tXhr_a_cJPENma45A6634GuyvWLhuCm-9rWPA03naVNnnG2MHZ4tdmx_F8ykwoxbTPBtaJMNZmHhbR3z6JaDzjWUOXc-M-vzsvlu3XsvHffSrJPupqsBi9o4YrtD3XvrpQ9MaeUIF6887d7Ohh_ufT_v_Nc7Wrs3tqHziq_h0EvOb3Tdi_798FlPXm5m6obLrtrY43zzszAeDKLjabItfP0g96w5lUfzWNkoxbvj-aht-MOU6YxnQIGpTHV_Qt-NnIcq7e2Pf7PznAHvR78BZvB5DUQT1gLTvqqJS3oJDNoIDZZCWkUuTP9TH_Bqly4KquyFyAth4oC1wxYeMHL-vguhkSJEKhtK0GbiC5_sWgfB1-kshiMroY1-l74pIlCIK0xU0TI3PyPqS3XJ8mLNPojFvHkPa45SnA8raMNZNdFk8bvb-pjVt0iJsXctm5gdqVU9HXJsjnpMYh-xSMQ90jF6cWxgIbuISE41sYzJAxvsHBnGO0JyVQVs2wLBlsRLPtFLjoPZ9Czpyd9JMo3xKmIiS8lJcmnuVapcIytbScIEtuhRg5xlQSIwhUKULoWBmssAxldFXRpkBW1gxCZWYQoWxjAvpylALo1JkAUUIRCTEEUsSvGIPBCzhakRIDUp4oExLEITqojFJgwhBy4gQQcWWOILxTlOiShgB3r-kAQoYoGKSPABDVMQAgoU4Dr3ybOeDZmAFRCRiVTIYhOHmMMXkICDCTgTcVJEaERaEIdIfAIWqpCEH9RgBSCYgKA_w-g0NToQBhyhEJZAhSw8gQg6gCEJNpCA7lS6UpYKBARmiIQnXrGKSQBCDVcAQgkkyFMo-pQBPPCDJUohC1Aowg5iUAINIPBAvvmUIxXIAiM64YpWVCIQbcjCD0TwVaO4oA6VIIUsRMGIO4xhCTFoQFuJ0oAkIGITrHCFJQiRVh-AYK9EEYEaJjEKWZCCEXkowxJcwADECqUBPhDEMmGRiULEQQs96IBlhXKBLURCFLLg5h7MsIQUJGC0QYH-AR7Qqc5CtHMHGIAtUPq6iH32sw9oWIIJDqDbn4RADZZwKETn4IUdVKC4PmlADwjx0ZCOlAnDhW5PKKAFSlCVpnT4wg4sql2euAAPQ2UFJY7qhBGUlycPUIIjqGpVO4RhB1x9r05EwIZNlPWsbYACW_WrEx8cQq50vYMYdvAAAuekAl6wRGAHG4coDNjBN4lBHxr72DyMQQeVxbBNIOCESayCs56FwgdEfBMRxCEUqX3EHsiAAwSw2CZAUEQ61ykHKIj2xjS5QBg6wc9I9MEMOCAukGdCA0DIdLlR-PGSYxKBKFgCpCI9Qw6mPJMSzOG7NZUCB7gskyE44hXqBQT-GrZMZphggAyora-Y2wwTGxCiFa2wRCDUwGY6t2QCVdjEXOs6hQ342SUmsMMqXjFYNdzg0C4hwiQc64g8OCEDkGZJBsxQChSnYQaZZokNDhFjPTDhAqFWiUI_oU5DqAHUqU6JCfDwilT40wmxVkkRKiGLThzi1blGiQbQsIqQ9gHXwT4JDhIxU0SwIQbJNskFsjAK9foBCtE2yQn2EAurtgHW2R7JETIhWEBgO9wj4QAbWkHXNkAb3SLRASMYHYglwHskWygFKRzBhhbcOyQo8IMrNEEIJfw7JEjYBDfbcHCQeCAOq9gEIezdcI_sIBL9ZHjFPdKFUnSiEBTf-EboVCCIVEgiDiLvyBI64QlDhDzlGPmAHEpBCZTDXCM8iAQoDvHym1sEDKGwhMZ9fhEVBAIUhiB6RpJgCUukQekX8UB_fQl1i-CAEJYwQ9UtQgVFAGLrFSmBGgjhBbBTBAh1sLnZI6KBK8RBCmuXiAvCEIa4S4QIYECC3SECgiZUYe8QqcETAA-RHxiB8A4ZQRAQ75AX6IDxDZEB5BnyARZMfiGHvbxCMK35znv-86APvehHT_rSm_70qE-96lfP-ta7_vWwj73sZ0_72tv-9rjPve53z_ve-_73wA--8IdP_OIb__jIN2BAAAA7</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Placemark id="0D405A814B123E17F961">
+		<name>Earth</name>
+		<LookAt>
+			<longitude>-29.09235571299598</longitude>
+			<latitude>79.84867563284674</latitude>
+			<altitude>-38051.96414141368</altitude>
+			<heading>1.564992944122556e-05</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>63208050.97703934</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_09A1A59A43128B8C9016</styleUrl>
+		<LineString>
+			<coordinates>
+				-160.5366692399405,34.40189260148981,-5420.276005032746 -160.1581687514624,34.29072458801139,-5853.369508155515 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0536A5CF011235B5B6B5">
+		<name>Texas: 4th</name>
+		<description><![CDATA[<div>Rep John Ratcliffe<b>(r)</b><br></div>]]></description>
+		<LookAt>
+			<longitude>-95.27124586112528</longitude>
+			<latitude>32.98865202586345</latitude>
+			<altitude>-5.153912462014781</altitude>
+			<heading>1.292510429665303</heading>
+			<tilt>39.77290368459443</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>335587.2403195873</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2E12157650128B8C9017</styleUrl>
+		<gx:Carousel>
+		</gx:Carousel>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-95.90642479425173,33.89229710758698,222.0417579930077 -96.23811993473086,33.77681496570375,384.8722551789327 -96.32146514536117,33.67220102891265,556.1611498161698 -96.43043076537089,33.77700100546588,497.0635305965712 -96.60847473965924,33.90540374751685,380.7606252949851 -96.80112741425236,33.85909025516461,325.9825195741758 -96.95259943729842,33.94054552273595,305.9127533730183 -96.95130486488222,33.43073500206771,54.23530486296566 -96.81477462772604,33.4076597436358,67.49504506888724 -96.80112776800762,33.25776565533261,6.327438690168893 -96.63776571929387,33.25766296537651,22.13156136198968 -96.55567590957982,33.36122179655874,111.5334680657793 -96.39203053604756,33.3608814657128,138.7819438807736 -96.36611359071861,33.16510242771167,-5.615496547384255 -96.48938034395429,32.98153188836694,-108.811390252955 -96.50401982451285,32.7521508742756,-112.3872954401781 -96.31422913269076,32.84334843032394,-75.57200725881304 -95.94861447966669,32.85361326020659,-213.4843714501473 -95.76050142589861,32.77196841308224,3.097271479962795 -95.61241236451953,32.72531636383839,-105.1899455829865 -95.60821437854665,32.95454318452153,34.08928222662473 -95.15921551012899,32.97403768356718,-42.61498647583384 -95.11265370959225,32.68641697168621,71.87498001576709 -94.94778086215339,32.75378156598033,-125.3610248423982 -94.95349775961,32.55891328991503,-56.41332709342736 -94.762250273421,32.60273940535721,-244.8987584473688 -94.66193337721964,32.76213402675922,-277.2888986101288 -94.4338726282284,32.67855278333428,-150.8332469567041 -94.26838048607615,32.74469762974127,86.85015661039586 -93.98243994763787,32.71757559840163,-161.2044593301691 -94.026971914028,33.56116282480301,172.6484088670813 -94.45104833557497,33.67103909238018,292.8334330737878 -94.63064771006634,33.67290711590854,373.2537656704701 -95.20039392564289,33.97049989177774,-131.5115966355737 -95.90642479425173,33.89229710758698,222.0417579930077 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="077AFE684B1235C900EF">
+		<name>New York: 25th</name>
+		<LookAt>
+			<longitude>-77.6805215831605</longitude>
+			<latitude>43.14904851594655</latitude>
+			<altitude>167.91680141464</altitude>
+			<heading>22.82863871638115</heading>
+			<tilt>61.46599999299375</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>93664.46901387535</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2E12157650128B8C9017</styleUrl>
+		<gx:Carousel>
+		</gx:Carousel>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-77.36777024065427,43.27743609160972,133.3717817030117 -77.39128357996115,43.27660617515335,133.251692108871 -77.41074876915503,43.27023699445243,133.1316025147304 -77.42673738010585,43.26993273111362,132.8914233264491 -77.43834150705523,43.26421704567554,132.6512441381678 -77.45196112121052,43.26084838837719,132.4110649498865 -77.50292084013346,43.24914937727699,131.9307065733239 -77.53610099554881,43.23433386632649,131.4503481967613 -77.56642259971325,43.2384859372945,133.9083714805735 -77.63474520135087,43.27372833030324,133.0031666368575 -77.66088833992073,43.2836739366011,132.0979617931415 -77.67365903203513,43.2922076003248,130.2875521057095 -77.69891737519241,43.30753074262814,126.6725571693296 -77.71010979058234,43.31412861288036,124.8650597011396 -77.71389570435092,43.32345020790331,123.0575622329496 -77.72417213504417,43.32514047474822,119.1441875542066 -77.73440530668661,43.33057294161915,115.2308128754636 -77.74892762211714,43.33453522202398,114.6989219130333 -77.75977174162891,43.34127353933898,114.1670309506031 -77.77345447496469,43.34101929095457,113.1032490257425 -77.80196432843501,43.34084291045257,110.9756851760214 -77.83052394938771,43.2888580132977,119.7739183453507 -77.98736210024573,43.28357345490761,127.2169528466062 -77.99161857977708,43.14151921574726,254.1250407127266 -77.90633335112506,43.1329363281422,266.2514215076727 -77.94878213177432,43.04302871676293,264.9519529684262 -77.84239494620456,43.03794015104252,161.2118491280333 -77.73359988310817,43.03617204049338,144.4814078267094 -77.71236053839139,43.02058218488877,168.2794635002834 -77.59896457491136,43.01864297515634,266.7205315310097 -77.50745463865258,42.95458737389266,264.0519539416935 -77.37150756735359,43.03531877741748,134.1225831543877 -77.36777024065427,43.27743609160972,133.3717817030117 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="007ADBCE251235C3058A">
+		<name>Florida: 8th</name>
+		<description><![CDATA[<div><a href="https://en.wikipedia.org/wiki/Bill_Posey" title="Bill Posey">Bill Posey</a><br></div>]]></description>
+		<LookAt>
+			<longitude>-80.73227647374351</longitude>
+			<latitude>28.39328358641416</latitude>
+			<altitude>5.401947475782203</altitude>
+			<heading>-161.6326877182003</heading>
+			<tilt>53.85288719985032</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>135989.9606159516</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_2E12157650128B8C9017</styleUrl>
+		<gx:Carousel>
+		</gx:Carousel>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-80.73377818597446,28.79427017076537,-38.42169387343149 -80.96412877861981,28.78901841664406,105.6040919948284 -80.95599652301485,28.62072208093789,2.599218661427645 -81.11949150226927,28.61367767680467,2.802437971131733 -81.11325074994571,28.57059444347303,51.50023362413967 -81.13436930769917,28.50986019284022,5.092048784833299 -81.15618399868656,28.48065915545639,-10.31048851669359 -81.15764133162756,28.45342888266826,132.5662269983575 -81.09514249495763,28.45359146362503,124.0477391040457 -81.09033936478556,28.35121860713977,39.95124662330485 -80.86400417902685,28.34956176379598,-22.39843120046251 -80.86929941177623,27.85149395977417,47.45936022894103 -80.87609572210789,27.81925782280533,102.8131049220361 -80.87392779355498,27.64847040251193,-9.294618944972051 -80.77717718549229,27.64447800092946,44.71704656607702 -80.7740366888999,27.56395427045767,7.705227885590357 -80.31669255429061,27.55981740232341,29.00517554102479 -80.38544423619051,27.75325885592029,-5.626145383228483 -80.56787195327736,28.1010277711921,-27.56365650174282 -80.5952128142672,28.2169805115082,111.3598507307436 -80.60793658751183,28.31869469591031,3.211674025210879 -80.59566362584488,28.37174947467946,109.3838814620891 -80.57341439634345,28.41883458995483,-37.31422120403629 -80.51359867985811,28.45900318268519,-13.96087204630843 -80.54609586866766,28.52183145076334,-29.19370314922737 -80.56873889035778,28.59589079810739,81.33214537199525 -80.73377818597446,28.79427017076537,-38.42169387343149 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="03FE61630B12359D2E97">
+		<name>Colorado 5th</name>
+		<description><![CDATA[<h3>Rep Doug Lamborn(r)<br></h3><h2><br></h2><div><br></div>]]></description>
+		<LookAt>
+			<longitude>-104.8395076128208</longitude>
+			<latitude>38.91423911611628</latitude>
+			<altitude>2015.547858745068</altitude>
+			<heading>1.093171552529894</heading>
+			<tilt>42.24883984376002</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>323205.4270507023</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0D17CF739E128B8C9018</styleUrl>
+		<gx:Carousel>
+		</gx:Carousel>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-106.2036971981585,39.10115459148447,3594.651640114857 -106.1984142496419,39.06325042474604,3363.950689090666 -106.5781710242192,39.05625651051642,3468.965284303792 -106.5910995156469,38.9957467537593,3315.624457458645 -106.5362431353305,38.99275218563086,3640.200121117587 -106.4995047383322,38.93905183124148,3769.700561787768 -106.4457960321117,38.9176260164358,3633.333948512548 -106.3228091872256,38.9030270515895,3685.429130267407 -106.403851310752,38.81727955058245,3462.21136399541 -106.4389415800391,38.70057397605352,4029.241774076361 -106.4060646901351,38.65436086146397,3528.441107744104 -106.3359912474718,38.57117025449233,3809.935165720579 -106.3463170896176,38.52149720570173,3539.303512972163 -106.2419685181559,38.42389821503084,3401.014091824406 -106.0767366120425,38.42236834426861,2837.274713731341 -106.0427776129476,38.46587705374611,2842.688380662315 -105.8042660421876,38.26876862480165,3410.079340474505 -104.9285727822518,38.26145249914218,1686.89230548156 -104.9321060034711,38.51395768359632,1893.417014895795 -104.0506764711943,38.52577593402038,1606.219474466558 -104.0443572878309,39.12847967010359,1892.128642698731 -105.3987031518495,39.11925170281906,3038.813355743151 -105.3967334529618,39.41434280875606,2378.502080144397 -105.4625381190157,39.42311741864366,2714.384083363537 -105.5283973773496,39.41948850938097,2784.465286583101 -105.6534636297384,39.46452113425895,2876.788632016035 -105.7715167605323,39.56387872766194,3517.925825008742 -105.8246128372427,39.56572867188758,3930.584854592032 -106.0197962888149,39.37273777760915,3693.720484377866 -106.1319726801614,39.37882073812713,3567.683816382895 -106.1458151908085,39.33620336954259,3712.936963668216 -106.1799527287644,39.28719294985601,3825.691181731645 -106.2036971981585,39.10115459148447,3594.651640114857 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0E508FF6A312361A56F0">
+		<name>Trade Zone Bld.</name>
+		<description><![CDATA[<div><span>4615 Foreign Trade Zone Boulevard</span><br></div><div><span>Colorado Springs, Colorado</span><br></div><div><span>United States</span><br></div>]]></description>
+		<LookAt>
+			<longitude>-104.6677978332645</longitude>
+			<latitude>38.76472256032772</latitude>
+			<altitude>1779.468813716776</altitude>
+			<heading>-135.3294917808289</heading>
+			<tilt>52.06020821871861</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>134.8105134025536</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3AEE3D77FD128B8C9018</styleUrl>
+		<Point>
+			<coordinates>-104.6681003353041,38.7643385991248,1781.58816125761</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="026B7954FD12361CF713">
+		<name>Fountain Blvd.</name>
+		<description><![CDATA[<div><span>4450 E. Fountain Blvd.</span><br></div><div><span>Colorado Springs, Colorado</span><br></div><div><span>United States</span><br></div>]]></description>
+		<LookAt>
+			<longitude>-104.7432663952776</longitude>
+			<latitude>38.81025019021985</latitude>
+			<altitude>1836.995269942732</altitude>
+			<heading>24.62203694946818</heading>
+			<tilt>61.43146857452658</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>100.7246782129005</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-104.7432594502517,38.81040985284435,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0328F7D05B1236269CD4">
+		<name>Applied Defense Solutions</name>
+		<description><![CDATA[<div><div>Colorado Springs<br></div></div><div><div><div><div>10807 New Allegiance Drive<br></div><div>Suite 150<br></div></div><div><span>Colorado Springs</span>,<span>&nbsp;</span><span>CO</span><span>&nbsp;</span><span>80921</span><br></div><div><span>United States</span><br></div></div></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>-104.8051736731923</longitude>
+			<latitude>38.98822172855668</latitude>
+			<altitude>2056.767660179004</altitude>
+			<heading>89.35230957072473</heading>
+			<tilt>71.41381663905037</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>173.8298744479289</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-104.8050057974228,38.98818049202653,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="011E845BA812362B0AB6">
+		<name>Doss Aviation</name>
+		<description><![CDATA[<div><div>3670 Rebecca Lane<br></div></div><div><span>Colorado Springs</span>,<span>&nbsp;</span><span>CO</span><span>&nbsp;</span><span>80917</span><br></div><div><span>United States</span><br></div>]]></description>
+		<LookAt>
+			<longitude>-104.7593895117597</longitude>
+			<latitude>38.87970705936725</latitude>
+			<altitude>1964.313565848041</altitude>
+			<heading>97.11921346184815</heading>
+			<tilt>62.4012276556413</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>69.25892577087325</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-104.7593568560723,38.87974274627443,1977.150260362866</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="073B062E4E12362E84AE">
+		<name>Doss Aviation : Pueblo</name>
+		<description><![CDATA[<div><div>Doss Aviation,<br></div><div>1 William White Blvd.<br></div></div><div><span>Pueblo</span>,<span>&nbsp;</span><span>CO</span><span>&nbsp;</span><span>81001</span><br></div><div><span>United States</span><br></div>]]></description>
+		<LookAt>
+			<longitude>-104.5085571767299</longitude>
+			<latitude>38.28067578318893</latitude>
+			<altitude>1422.437486793391</altitude>
+			<heading>-40.8430026567995</heading>
+			<tilt>71.80462846493901</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>88.78700351305271</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_029443C2EE128B8C901A</styleUrl>
+		<Point>
+			<coordinates>-104.5088335441088,38.28086770311861,1430.253634275621</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04C9EFEDC712363A0CD1">
+		<name>Tx: Greenville, ISR Systems</name>
+		<description><![CDATA[<div>10001 Jack Finney Blvd<br></div><div><div><div><div><div><span>Greenville</span>,<span>&nbsp;TX&nbsp;75402</span><br></div><div><span>United States</span><br></div></div></div><div><a href="https://www2.l3t.com/mid/">ISR Systems, Greenville</a><br></div></div></div><div><br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>-96.073054473661</longitude>
+			<latitude>33.07208478276475</latitude>
+			<altitude>161.6755215018074</altitude>
+			<heading>132.3955567594748</heading>
+			<tilt>61.33055807141329</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>164.9148542189869</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-96.07326688317784,33.0719217052552,161.7702002969133</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FC992D8FC123640BA4D">
+		<name>Tx: Rockwall, ComCept</name>
+		<description><![CDATA[<div>1700 Science Place<br></div><div><div><div><span>Rockwall</span>,<span>&nbsp;</span><span>TX</span><span>&nbsp;</span><span>75032</span><br></div><div><span>United States</span><br></div><div><a href="https://www.comceptinc.com/">ComCept</a><br></div></div></div><div><br></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>-96.41892095672443</longitude>
+			<latitude>32.9116988104027</latitude>
+			<altitude>181.9043331225595</altitude>
+			<heading>-81.71426946992629</heading>
+			<tilt>61.39878551363219</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>92.8242052463338</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-96.41881580286352,32.91180057188037,182.4246373711185</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="056257638912364E62E3">
+		<name>Malabar</name>
+		<description><![CDATA[<div><span>2800 Jordan Blvd.</span><br></div><div><span>Malabar, Florida</span><br></div><div><span>United States</span><br></div>]]></description>
+		<gx:mid>/g/11c88dgly5</gx:mid>
+		<gx:fid>0x88de134e3e3c764f:0x5303535345de74ee</gx:fid>
+		<LookAt>
+			<longitude>-80.55617554343743</longitude>
+			<latitude>27.98050726023819</latitude>
+			<altitude>18.24209250682113</altitude>
+			<heading>84.93203466866176</heading>
+			<tilt>74.66153852044525</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>135.1679467510803</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-80.55621412595075,27.98033743621656,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09AF4ED2341236514F46">
+		<name>Palm Bay</name>
+		<description><![CDATA[<div><span>1710 Main Street N.E.</span><br></div><div><span>Palm Bay, Florida</span><br></div><div><span>United States</span><br></div>]]></description>
+		<gx:mid>/g/11c2g9rbh9</gx:mid>
+		<gx:fid>0x88de124b5be04d0f:0x76761b581c0fd804</gx:fid>
+		<LookAt>
+			<longitude>-80.58774526893083</longitude>
+			<latitude>28.04128589151412</latitude>
+			<altitude>11.66020371686485</altitude>
+			<heading>78.78351955493312</heading>
+			<tilt>79.87236609171032</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>437.8155808662996</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-80.5895996369433,28.04145335795144,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01A69804631236541C70">
+		<name>Rodes Blvd.</name>
+		<description><![CDATA[<div><span>407 N. John Rodes Blvd.</span><br></div><div><span>Melbourne, Florida</span><br></div><div><span>United States</span><br></div>]]></description>
+		<LookAt>
+			<longitude>-80.69856390971856</longitude>
+			<latitude>28.1113295992959</latitude>
+			<altitude>16.00921653070297</altitude>
+			<heading>-168.5122547817726</heading>
+			<tilt>75.96659663339257</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>174.6400474335497</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-80.69895156015951,28.11143951254853,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E0D417888123645DB36">
+		<name>Linkabit</name>
+		<description><![CDATA[<div><div>Linkabit - Melbourne, FL<br></div></div><div><div><div><div>1200 South Woody Burke Drive<br></div></div><div><span>Melbourne</span>,<span>&nbsp;</span><span>FL</span><span>&nbsp;</span><span>32901</span><br></div><div><span>United States</span><br></div></div></div><div><br></div>]]></description>
+		<LookAt>
+			<longitude>-80.64103539523784</longitude>
+			<latitude>28.09035098402406</latitude>
+			<altitude>9.176259669178382</altitude>
+			<heading>-107.9721992652779</heading>
+			<tilt>71.35275357862604</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>111.377230355447</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-80.6410293445492,28.09037164067033,18.34778184576982</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A4A485FD91236581710">
+		<name>Wickham Campus</name>
+		<description><![CDATA[<div><span>150 Wickham Road</span><br></div><div><span>Melbourne, Florida</span><br></div><div><span>United States</span><br></div>]]></description>
+		<LookAt>
+			<longitude>-80.6737558552461</longitude>
+			<latitude>28.10448796659973</latitude>
+			<altitude>12.88564153393667</altitude>
+			<heading>-141.2131505435718</heading>
+			<tilt>69.22035533121316</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>159.4573176081394</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-80.67361723001113,28.10466952734803,12.93292279026775</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="020C54844D12365F5495">
+		<name>Rochester: 400 Initiative dr.</name>
+		<description><![CDATA[<div><span>400 Initiative Drive</span><br></div><div><span>Rochester, New York</span><br></div><div><span>United States</span><br></div>]]></description>
+		<LookAt>
+			<longitude>-77.73770344426242</longitude>
+			<latitude>43.1493903007281</latitude>
+			<altitude>194.0583894466195</altitude>
+			<heading>-16.90331363020713</heading>
+			<tilt>74.45585989772988</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>193.7255489159543</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-77.73878746042421,43.14942311067543,188.0452148132575</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07B4C57621123662E43C">
+		<name>Rochester: Lee rd.</name>
+		<description><![CDATA[<div><span>800 Lee Rd.</span><br></div><div><span>Rochester, New York</span><br></div><div><span>United States</span><br></div>]]></description>
+		<LookAt>
+			<longitude>-77.68228474774868</longitude>
+			<latitude>43.18276065894096</latitude>
+			<altitude>169.5569100508858</altitude>
+			<heading>150.1144765723188</heading>
+			<tilt>69.20041314018009</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>180.6153947916937</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-77.68281587855842,43.18281648208848,161.6273007612102</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="094A9CD7B61236646A01">
+		<name>Rochester: 332 Initiative dr.</name>
+		<description><![CDATA[<div><span>332 Initiative Drive</span><br></div><div><span>Rochester, New York</span><br></div><div><span>United States</span><br></div>]]></description>
+		<LookAt>
+			<longitude>-77.73548382802642</longitude>
+			<latitude>43.14918524926242</latitude>
+			<altitude>178.8243484253403</altitude>
+			<heading>-26.50311834708388</heading>
+			<tilt>63.22086823560357</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>82.51982120696994</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-77.73555336818255,43.14936987019691,179.6376586445668</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="017282F2601236663607">
+		<name>Rochester: Humboldt st.</name>
+		<description><![CDATA[<div><span>97 Humboldt Street</span><br></div><div><span>Rochester, New York</span><br></div><div><span>United States</span><br></div>]]></description>
+		<LookAt>
+			<longitude>-77.56653336004807</longitude>
+			<latitude>43.15367187569318</latitude>
+			<altitude>148.9282386953469</altitude>
+			<heading>90.61776606524693</heading>
+			<tilt>77.63734168054916</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>157.2114545853765</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-77.56673172891649,43.15407691475623,140.6231951946621</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07A3459B25123667CCFF">
+		<name>Rochester: University dr.</name>
+		<description><![CDATA[<div><span>1680 University Ave.</span><br></div><div><span>Rochester, New York</span><br></div><div><span>United States</span><br></div>]]></description>
+		<LookAt>
+			<longitude>-77.5572062547826</longitude>
+			<latitude>43.14727740315458</latitude>
+			<altitude>156.500983820513</altitude>
+			<heading>-33.3152205967217</heading>
+			<tilt>69.07439100178023</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>231.0767022474102</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_051311C5CA128B8C9019</styleUrl>
+		<Point>
+			<coordinates>-77.55709354536897,43.14724199304908,142.1440270265205</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E437F0AF8123D4C79F2">
+		<name>Corporate Headquarters</name>
+		<description><![CDATA[<div><span>1025 W. Nasa Boulevard</span><br></div><div><span>Melbourne, FL 32919</span><br></div>]]></description>
+		<LookAt>
+			<longitude>-80.63859600691816</longitude>
+			<latitude>28.09116455073923</latitude>
+			<altitude>15.42325688068394</altitude>
+			<heading>-170.2798430821335</heading>
+			<tilt>65.30194799985202</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>153.7692218276607</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F4C208DCE128B8C901B</styleUrl>
+		<Point>
+			<coordinates>-80.6384030472732,28.09124660006368,8.685174801447699</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
