@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		p {color:#FFFFFF;}
+		body {padding-left: 5px; background-color: #202124; color: #F5F5F5; height: 1000px; width:400px;}
+		h1 {color: #08FFF0; font-family: 'Black Ops One', cursive;}
+		h2 {color: #08FFF0; font-family: 'Black Ops One', cursive;}
+		h3 {color: #08FFF0; font-family: 'Black Ops One', cursive; font-size: 30px;}
+		button {font-size:18px; border:none; background-color:#000000; color:#FFFFFF; padding: 0px; margin:0px;}
+		button:hover {background-color:#08FFF0; color:#000000;}
+
+		.w3-button:hover  {background-color:#08FFF0 !important; color:#000000 !important;}
+
+		/* The Modal (background) */
+		.modal {
+		  display: none; /* Hidden by default */
+		  position: fixed; /* Stay in place */
+		  z-index: 1; /* Sit on top */
+		  padding-top: 5px; /* Location of the box */
+		  left: 0;
+		  top: 0;
+		  width: 100%; /* Full width */
+		  height: 100%; /* Full height */
+		  overflow: auto; /* Enable scroll if needed */
+		  background-color: rgb(0,0,0); /* Fallback color */
+		  background-color: rgba(0,0,0,0.95); /* Black w/ opacity */
+		}
+		
+		/* Modal Content */
+		.modal-content {
+		  margin: auto;
+		  padding: 50px;
+		  border: none;
+		  width: 70%;
+		  height:70%;
+		  text-align:center;
+
+		}
+		
+		/* The Close Button */
+		.close {
+		  color: #aaaaaa;
+		  font-size: 35px;
+		  font-weight: bold;
+		  width:100%;
+		  display:inline-block;
+
+		}
+		
+		.close:hover,
+		.close:focus {
+		  color: #08FFF0;
+		  text-decoration: none;
+		  cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    
+    
+
+
+
+
+
+	<div class="w3-container">
+	<div id="Modal1" class="w3-container tab" style="display:none">
+		<i class="fa fa-user"style="font-size:250px;color:#08FFF0;"></i>
+	  <h1>XX,XXX Widgets</h1>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div id="Modal2" class="w3-container tab" style="display:none">
+		<i class="fa fa-user"style="font-size:250px;color:#08FFF0;"></i>
+	  <h1>XXX,XXX Widgets</h1>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+	</div>
+</div>
+
+<span class="close"> <i class="fa fa-times-circle"></i>     </span>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+	<h1>Title</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<h2> Subtitle</h2>
+	<button id="myBtn" style="background-color: rgba(0,0,0,0); border: none;"> <i class="fa fa-users"style="font-size:18px;color:#08FFF0;"> XX,XXXX Widgets</i> </button>
+	<br>
+	<br>
+	<button id="myBtn2" style="background-color: rgba(0,0,0,0); border: none;"> <i class="fa fa-users"style="font-size:18px;color:#08FFF0;"> XXX,XXX Widgets</i></button>
+	<br>
+	<br>
+	<div class="w3-container" style="border:double; border-color: #2A2A35">
+	<div class="w3-bar w3-black" style = "background-color: #000000; height:25px">
+	  <button class="w3-bar-item w3-button" id="tabButton1" onclick="openTab('Tab1', 'tabButton1')" style="border:none !important; width:95px; height: 100%; background-color: #03A792; color:#000000;">Tab 1</button>
+	  <button class="w3-bar-item w3-button" id="tabButton2" onclick="openTab('Tab2', 'tabButton2')" style="border:none !important; width:95px; height: 100%">Tab 2</button>
+	  <button class="w3-bar-item w3-button" id="tabButton3" onclick="openTab('Tab3', 'tabButton3')" style="border:none !important; width:95px; height: 100%">Tab 3</button>
+	  <button class="w3-bar-item w3-button" id="tabButton4" onclick="openTab('Tab4', 'tabButton4')" style="border:none !important; width:95px; height: 100%">Tab 4</button>
+	</div>
+	<div id="Tab1" class="w3-container tab">
+	  <h2>Tab 1 Title</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div id="Tab2" class="w3-container tab" style="display:none">
+	  <h2>Tab 2 Title</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+	</div>
+	<div id="Tab3" class="w3-container tab" style="display:none">
+	  <h2>Tab 3 title</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div id="Tab4" class="w3-container tab" style="display:none">
+	  <h2>Tab 4 title</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div>
+
+
+
+
+
+<script>
+function openTab(tabName, tabButton) {
+
+
+	document.getElementById('tabButton1').style.backgroundColor = "#000000";
+	document.getElementById('tabButton1').style.color = "#FFFFFF";
+	document.getElementById('tabButton2').style.backgroundColor = "#000000";
+	document.getElementById('tabButton2').style.color = "#FFFFFF";
+	document.getElementById('tabButton3').style.backgroundColor = "#000000";
+	document.getElementById('tabButton3').style.color = "#FFFFFF";
+	document.getElementById('tabButton4').style.backgroundColor = "#000000";
+	document.getElementById('tabButton4').style.color = "#FFFFFF";
+
+
+
+	document.getElementById(tabButton).style.backgroundColor = "#03A792";
+	document.getElementById(tabButton).style.color = "#000000";
+  var i;
+  var x = document.getElementsByClassName("tab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(tabName).style.display = "block";  
+}
+
+
+
+
+
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+// Get the button that opens the modal
+var btn2 = document.getElementById("myBtn2");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+
+
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "block";
+  document.getElementById("Modal2").style.display = "none";
+}
+
+
+
+
+
+
+btn2.onclick = function() {
+  modal.style.display = "block";
+   document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
