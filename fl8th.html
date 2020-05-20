@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://use.fontawesome.com/5c3a1c408a.js"></script>
+  <title>Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    p {color:#FFFFFF;}
+    body {padding-left: 5px; background-color: #202124; color: #F5F5F5; height: 1000px; width:400px;}
+    h1 {color: #08FFF0; font-family: 'Black Ops One', cursive;}
+    h2 {color: #08FFF0; font-family: 'Black Ops One', cursive;}
+    h3 {color: #08FFF0; font-family: 'Black Ops One', cursive; font-size: 30px;}
+    button {font-size:18px; border:none; background-color:#000000; color:#FFFFFF; padding: 0px; margin:0px;}
+    button:hover {background-color:#08FFF0; color:#000000;}
+    table.sortable thead {background-color:#313030; color:#FFFFFF !important; font-weight: bold; cursor: default;}
+    td {color:#FFFFFF; padding-bottom: 8px;}
+    .w3-button:hover  {background-color:#08FFF0 !important; color:#000000 !important;}
+    .modal {display: none; position: fixed; z-index: 1; padding-top: 5px; left: 0 top: 0 width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.95);}
+    .modal-content {margin: auto; padding: 50px; border: none; width: 70%; height:70%; text-align:center;}
+    .close {color: #aaaaaa; font-size: 35px; font-weight: bold; width:100%; display:inline-block;}
+    .close:hover,
+    .close:focus {color: #08FFF0; text-decoration: none; cursor: pointer;}
+    tr:nth-child(odd) {background-color: #222222;}
+tr:nth-child(even) {background-color: #5C5C5C;}
+  </style>
+</head>
+<body>
+<i style="display:none; color:#000000">Info such as politician's name for area, company info for area, etc.</i>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+  <div class="w3-container">
+
+
+
+
+
+  <div id="Modal1" class="w3-container tab" style="display:none">
+    <img src="https://johnwblood.github.io/doubleD/Official_Portrait_of_Senator_Rick_Scott_(R-FL).jpg" style="height:250px;">
+    <h1>Rick Scott</h1>
+    <p>Richard Lynn Scott (né Myers, December 1, 1952) is an American politician serving as the junior United States Senator from Florida since 2019.[5][6] A member of the Republican Party, he previously served as the 45th governor of Florida from 2011 to 2019.</p> 
+  </div>
+
+
+
+
+  <div id="Modal2" class="w3-container tab" style="display:none">
+    <img src="https://johnwblood.github.io/doubleD/1920px-Senator_Rubio_official_portrait.jpg" style="height:250px;">
+    <h1>Marco Rubio</h1>
+    <p>Marco Antonio Rubio (born May 28, 1971) is an American politician serving as the senior United States senator from Florida. A Republican, he previously served as speaker of the Florida House of Representatives. Rubio unsuccessfully sought the Republican nomination for president of the United States in 2016, winning presidential primaries in the State of Minnesota, the District of Columbia, and the Commonwealth of Puerto Rico.</p>
+  </div>
+
+
+
+  <div id="Modal3" class="w3-container tab" style="display:none">
+    <img src="https://johnwblood.github.io/doubleD/1920px-Bill_Posey_Official_Portrait.jpg" style="height:250px;">
+    <h1>Bill Posey</h1>
+    <p>William Joseph Posey (born December 18, 1947) is an American businessman and politician serving as the U.S. Representative for Florida's 8th congressional district, in Congress since 2009. He is a member of the Republican Party. He formerly served in the Florida Senate and the Florida House of Representatives.</p>
+  </div>
+
+
+
+  <div id="Modal4" class="w3-container tab" style="display:none">
+    <i class="fa fa-user"style="font-size:250px;color:#08FFF0;"></i>
+    <h1>20,000 Employees</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+  </div>
+
+
+
+
+
+  <div id="Modal5" class="w3-container tab" style="display:none">
+    <i class="fa fa-user"style="font-size:250px;color:#08FFF0;"></i>
+    <h1>20,000 Residents</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+
+
+  <div id="Modal6" class="w3-container tab" style="display:none">
+    <i class="fa fa-user"style="font-size:250px;color:#08FFF0;"></i>
+    <h1>$40,000,000 Revenue</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+  </div>
+
+
+
+
+  <div id="Modal7" class="w3-container tab" style="display:none">
+    <i class="fa fa-user"style="font-size:250px;color:#08FFF0;"></i>
+    <h1>$3,000,000 Impact</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+  </div>
+
+
+
+
+
+
+
+</div>
+<span class="close"> <i class="fa fa-times-circle"> Close</i>     </span>
+  </div>
+</div>
+
+
+
+
+
+  <h1>8th District of Florida</h1>
+
+  <h2>Senators</h2>
+  <button id="myBtn" style="background-color: rgba(0,0,0,0); border: none;"> <i class="fa fa-user" style="font-size:18px;color:#08FFF0;">  <span style ="color:#FFFFFF; font-size: 20px;"> Rick Scott </span> </i></button>
+
+<button id="myBtn2" style="background-color: rgba(0,0,0,0); border: none; float: right;"> <i class="fa fa-user" style="font-size:18px;color:#08FFF0; ">  <span style ="color:#FFFFFF; font-size: 20px; padding-right: 50px; "> Marco Rubio </span> </i></button>
+
+  <br>
+
+
+  <h2>Representative</h2>
+  <button id="myBtn3" style="background-color: rgba(0,0,0,0); border: none;"> <i class="fa fa-user" style="font-size:18px;color:#08FFF0;">  <span style ="color:#FFFFFF; font-size: 20px;"> 
+Bill Posey </span> </i></button>
+<br>
+  
+  <h2>L3Harris In Fl 8th District</h2>
+  <button id="myBtn4" style="background-color: rgba(0,0,0,0); border: none;"> <i class="fa fa-users" style="font-size:18px;color:#08FFF0;">  <span style ="color:#FFFFFF; font-size: 20px;"> 20,000 Employees </span> </i></button>
+  <button id="myBtn5" style="background-color: rgba(0,0,0,0); border: none;  float: right;"> <i class="fa fa-users" style="font-size:18px;color:#08FFF0;">  <span style ="color:#FFFFFF; font-size: 20px; padding-right: 15px;"> 20,000 Residents     </span> </i></button>
+  <br>
+  <br>
+
+
+  <button id="myBtn6" style="background-color: rgba(0,0,0,0); border: none;"> <i class="fa fa-money" style="font-size:18px;color:#08FFF0;">  <span style ="color:#FFFFFF; font-size: 20px;"> $40,000,000 Revenue </span> </i></button>
+
+
+  <button id="myBtn7" style="background-color: rgba(0,0,0,0); border: none;  float: right;"> <i class="fa fa-dollar" style="font-size:18px;color:#08FFF0;"> <span style ="color:#FFFFFF; font-size: 20px; padding-right: 5px;"> $3,000,000 Impact </span> </i></button>
+  <br>
+  <br>
+
+
+
+
+
+  <div class="w3-container" style="border:double; border-color: #2A2A35; background-color: rgba(0,0,0,.3);">
+  <div class="w3-bar w3-black" style = "background-color: #000000; height:25px">
+    <button class="w3-bar-item w3-button" id="tabButton1" onclick="openTab('Tab1', 'tabButton1')" style="border:none !important; width:95px; height: 100%; background-color: #03A792; color:#000000;">Locations</button>
+    <button class="w3-bar-item w3-button" id="tabButton2" onclick="openTab('Tab2', 'tabButton2')" style="border:none !important; width:95px; height: 100%">Programs</button>
+    <button class="w3-bar-item w3-button" id="tabButton3" onclick="openTab('Tab3', 'tabButton3')" style="border:none !important; width:95px; height: 100%">Legislation</button>
+    <button class="w3-bar-item w3-button" id="tabButton4" onclick="openTab('Tab4', 'tabButton4')" style="border:none !important; width:95px; height: 100%">District Info</button>
+  </div>
+  
+
+
+  <div id="Tab1" class="w3-container tab" style="padding-left: 10px; padding-right: 10px;">
+    <br>
+
+    <table class="sortable">
+      <tr>
+        <th style="width:80px;">Location</th>
+        <th style="width:80px;">Employees</th>
+        <th style="width:80px;">Residents</th>
+        <th style="width:80px;">Revenue</th>
+      </tr>
+      <tr>
+        <td>Corporate Headquarters</td>
+        <td>8,000</td>
+        <td>5,000</td>
+        <td>$60,000,000</td>
+      </tr>
+      <tr>
+        <td>High Technology Center - Palm Bay</td>
+        <td>9,000</td>
+        <td>6,000</td>
+        <td>$80,000,000</td>
+      </tr>
+      <tr>
+        <td>Malabar</td>
+        <td>2,000</td>
+        <td>2,000</td>
+        <td>$20,000,000</td>
+      </tr>
+    </table>
+  </div>
+
+
+
+  <div id="Tab2" class="w3-container tab" style="display:none; padding-left: 10px; padding-right: 10px;">
+    <table class="sortable">
+      <tr>
+        <th style="width:80px;">Program</th>
+        <th style="width:80px;">Description</th>
+        <th style="width:80px;">Revenue</th>
+        <th style="width:80px;">Files</th>
+      </tr>
+      <tr>
+        <td>Something</td>
+        <td>Info</td>
+        <td>$1,000,000</td>
+        <td>xxx.ppt</td>
+      </tr>
+      <tr>
+        <td>Nothing</td>
+        <td>Info 2</td>
+        <td>$100</td>
+        <td>yyy.ppt</td>
+      </tr>
+      <tr>
+        <td>Another Thing</td>
+        <td>Info 3</td>
+        <td>$5,000,000</td>
+        <td>zzz.ppt</td>
+      </tr>
+      <tr>
+        <td>Test</td>
+        <td>Info 4</td>
+        <td>$500,000</td>
+        <td>XXX.ppt</td>
+      </tr>
+    </table>
+  </div>
+  <div id="Tab3" class="w3-container tab" style="display:none; padding-left: 10px; padding-right: 10px;">
+    <h2 style="text-align: center;">Legislative Info</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <div id="Tab4" class="w3-container tab" style="display:none; padding-left: 10px; padding-right: 10px;">
+    <h2 style="text-align: center;">Florida 8th District Info</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
+
+
+<script>
+function openTab(tabName, tabButton) {
+  document.getElementById('tabButton1').style.backgroundColor = "#000000";
+  document.getElementById('tabButton1').style.color = "#FFFFFF";
+  document.getElementById('tabButton2').style.backgroundColor = "#000000";
+  document.getElementById('tabButton2').style.color = "#FFFFFF";
+  document.getElementById('tabButton3').style.backgroundColor = "#000000";
+  document.getElementById('tabButton3').style.color = "#FFFFFF";
+  document.getElementById('tabButton4').style.backgroundColor = "#000000";
+  document.getElementById('tabButton4').style.color = "#FFFFFF";
+  document.getElementById(tabButton).style.backgroundColor = "#03A792";
+  document.getElementById(tabButton).style.color = "#000000";
+  var i;
+  var x = document.getElementsByClassName("tab");
+  for (i = 0; i < x.length; i++) {x[i].style.display = "none";}
+  document.getElementById(tabName).style.display = "block";}
+
+
+
+
+
+
+
+
+
+
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var btn2 = document.getElementById("myBtn2");
+var btn3 = document.getElementById("myBtn3");
+var btn4 = document.getElementById("myBtn4");
+var btn5 = document.getElementById("myBtn5");
+var btn6 = document.getElementById("myBtn6");
+var btn7 = document.getElementById("myBtn7");
+
+
+
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "block";
+  document.getElementById("Modal2").style.display = "none";
+  document.getElementById("Modal3").style.display = "none";
+  document.getElementById("Modal4").style.display = "none";
+  document.getElementById("Modal5").style.display = "none";
+  document.getElementById("Modal6").style.display = "none";
+  document.getElementById("Modal7").style.display = "none";
+}
+
+
+
+btn2.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "block";
+  document.getElementById("Modal3").style.display = "none";
+  document.getElementById("Modal4").style.display = "none";
+  document.getElementById("Modal5").style.display = "none";
+  document.getElementById("Modal6").style.display = "none";
+  document.getElementById("Modal7").style.display = "none";
+}
+
+btn3.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "none";
+  document.getElementById("Modal3").style.display = "block";
+  document.getElementById("Modal4").style.display = "none";
+  document.getElementById("Modal5").style.display = "none";
+  document.getElementById("Modal6").style.display = "none";
+  document.getElementById("Modal7").style.display = "none";
+}
+
+
+btn4.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "none";
+  document.getElementById("Modal3").style.display = "none";
+  document.getElementById("Modal4").style.display = "block";
+  document.getElementById("Modal5").style.display = "none";
+  document.getElementById("Modal6").style.display = "none";
+  document.getElementById("Modal7").style.display = "none";
+}
+
+
+
+btn5.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "none";
+  document.getElementById("Modal3").style.display = "none";
+  document.getElementById("Modal4").style.display = "none";
+  document.getElementById("Modal5").style.display = "block";
+  document.getElementById("Modal6").style.display = "none";
+  document.getElementById("Modal7").style.display = "none";
+}
+
+btn6.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "none";
+  document.getElementById("Modal3").style.display = "none";
+  document.getElementById("Modal4").style.display = "none";
+  document.getElementById("Modal5").style.display = "none";
+  document.getElementById("Modal6").style.display = "block";
+  document.getElementById("Modal7").style.display = "none";
+}
+
+btn7.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "none";
+  document.getElementById("Modal3").style.display = "none";
+  document.getElementById("Modal4").style.display = "none";
+  document.getElementById("Modal5").style.display = "none";
+  document.getElementById("Modal6").style.display = "none";
+  document.getElementById("Modal7").style.display = "block";
+}
+
+
+
+
+span.onclick = function() {modal.style.display = "none";}
+window.onclick = function(event) {if (event.target == modal) {modal.style.display = "none";}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var stIsIE = /*@cc_on!@*/false;
+sorttable = {
+  init: function() {
+    if (arguments.callee.done) return;
+    arguments.callee.done = true;
+    if (_timer) clearInterval(_timer);
+    if (!document.createElement || !document.getElementsByTagName) return;
+    sorttable.DATE_RE = /^(\d\d?)[\/\.-](\d\d?)[\/\.-]((\d\d)?\d\d)$/;
+    forEach(document.getElementsByTagName('table'), function(table) {
+      if (table.className.search(/\bsortable\b/) != -1) {sorttable.makeSortable(table);}});},
+  makeSortable: function(table) {
+    if (table.getElementsByTagName('thead').length == 0) {
+      the = document.createElement('thead');
+      the.appendChild(table.rows[0]);
+      table.insertBefore(the,table.firstChild);}
+    if (table.tHead == null) table.tHead = table.getElementsByTagName('thead')[0];
+    if (table.tHead.rows.length != 1) return;
+    sortbottomrows = [];
+    for (var i=0; i<table.rows.length; i++) {
+      if (table.rows[i].className.search(/\bsortbottom\b/) != -1) {sortbottomrows[sortbottomrows.length] = table.rows[i];}}
+    if (sortbottomrows) {
+      if (table.tFoot == null) {
+        tfo = document.createElement('tfoot');
+        table.appendChild(tfo);}
+      for (var i=0; i<sortbottomrows.length; i++) {tfo.appendChild(sortbottomrows[i]);}
+      delete sortbottomrows;}
+    headrow = table.tHead.rows[0].cells;
+    for (var i=0; i<headrow.length; i++) {
+      if (!headrow[i].className.match(/\bsorttable_nosort\b/)) { 
+        mtch = headrow[i].className.match(/\bsorttable_([a-z0-9]+)\b/);
+        if (mtch) { override = mtch[1]; }
+        if (mtch && typeof sorttable["sort_"+override] == 'function') {headrow[i].sorttable_sortfunction = sorttable["sort_"+override];} 
+        else {headrow[i].sorttable_sortfunction = sorttable.guessType(table,i);}
+        headrow[i].sorttable_columnindex = i;
+        headrow[i].sorttable_tbody = table.tBodies[0];
+        dean_addEvent(headrow[i],"click", sorttable.innerSortFunction = function(e) {
+          if (this.className.search(/\bsorttable_sorted\b/) != -1) {
+            sorttable.reverse(this.sorttable_tbody);
+            this.className = this.className.replace('sorttable_sorted','sorttable_sorted_reverse');
+            this.removeChild(document.getElementById('sorttable_sortfwdind'));
+            sortrevind = document.createElement('span');
+            sortrevind.id = "sorttable_sortrevind";
+            sortrevind.innerHTML = stIsIE ? '&nbsp<font face="webdings">5</font>' : '&nbsp;&#x25B4;';
+            this.appendChild(sortrevind);
+            return;}
+          if (this.className.search(/\bsorttable_sorted_reverse\b/) != -1) {
+            sorttable.reverse(this.sorttable_tbody);
+            this.className = this.className.replace('sorttable_sorted_reverse', 'sorttable_sorted');
+            this.removeChild(document.getElementById('sorttable_sortrevind'));
+            sortfwdind = document.createElement('span');
+            sortfwdind.id = "sorttable_sortfwdind";
+            sortfwdind.innerHTML = stIsIE ? '&nbsp<font face="webdings">6</font>' : '&nbsp;&#x25BE;';
+            this.appendChild(sortfwdind);
+            return;}
+          theadrow = this.parentNode;
+          forEach(theadrow.childNodes, function(cell) {
+            if (cell.nodeType == 1) {
+              cell.className = cell.className.replace('sorttable_sorted_reverse','');
+              cell.className = cell.className.replace('sorttable_sorted','');}});
+          sortfwdind = document.getElementById('sorttable_sortfwdind');
+          if (sortfwdind) { sortfwdind.parentNode.removeChild(sortfwdind); }
+          sortrevind = document.getElementById('sorttable_sortrevind');
+          if (sortrevind) { sortrevind.parentNode.removeChild(sortrevind); }
+          this.className += ' sorttable_sorted';
+          sortfwdind = document.createElement('span');
+          sortfwdind.id = "sorttable_sortfwdind";
+          sortfwdind.innerHTML = stIsIE ? '&nbsp<font face="webdings">6</font>' : '&nbsp;&#x25BE;';
+          this.appendChild(sortfwdind);
+          row_array = [];
+          col = this.sorttable_columnindex;
+          rows = this.sorttable_tbody.rows;
+          for (var j=0; j<rows.length; j++) {row_array[row_array.length] = [sorttable.getInnerText(rows[j].cells[col]), rows[j]];}
+          row_array.sort(this.sorttable_sortfunction);
+          tb = this.sorttable_tbody;
+          for (var j=0; j<row_array.length; j++) {
+            tb.appendChild(row_array[j][1]);}
+          delete row_array;});}}},
+  guessType: function(table, column) {
+    sortfn = sorttable.sort_alpha;
+    for (var i=0; i<table.tBodies[0].rows.length; i++) {
+      text = sorttable.getInnerText(table.tBodies[0].rows[i].cells[column]);
+      if (text != '') {
+        if (text.match(/^-?[£$¤]?[\d,.]+%?$/)) {
+          return sorttable.sort_numeric;}
+        possdate = text.match(sorttable.DATE_RE)
+        if (possdate) {
+          first = parseInt(possdate[1]);
+          second = parseInt(possdate[2]);
+          if (first > 12) {return sorttable.sort_ddmm;} 
+          else if (second > 12) {
+            return sorttable.sort_mmdd;} 
+          else {sortfn = sorttable.sort_ddmm;}}}}
+    return sortfn;},
+  getInnerText: function(node) {
+    if (!node) return "";
+    hasInputs = (typeof node.getElementsByTagName == 'function') && node.getElementsByTagName('input').length;
+    if (node.getAttribute("sorttable_customkey") != null) {return node.getAttribute("sorttable_customkey");}
+    else if (typeof node.textContent != 'undefined' && !hasInputs) {return node.textContent.replace(/^\s+|\s+$/g, '');}
+    else if (typeof node.innerText != 'undefined' && !hasInputs) {return node.innerText.replace(/^\s+|\s+$/g, '');}
+    else if (typeof node.text != 'undefined' && !hasInputs) {return node.text.replace(/^\s+|\s+$/g, '');}
+    else {
+      switch (node.nodeType) {
+        case 3:
+          if (node.nodeName.toLowerCase() == 'input') {
+            return node.value.replace(/^\s+|\s+$/g, '');}
+        case 4:
+          return node.nodeValue.replace(/^\s+|\s+$/g, '');
+          break;
+        case 1:
+        case 11:
+          var innerText = '';
+          for (var i = 0; i < node.childNodes.length; i++) {
+            innerText += sorttable.getInnerText(node.childNodes[i]);}
+          return innerText.replace(/^\s+|\s+$/g, '');
+          break;
+        default:
+          return '';}}},
+  reverse: function(tbody) {
+    newrows = [];
+    for (var i=0; i<tbody.rows.length; i++) {newrows[newrows.length] = tbody.rows[i];}
+    for (var i=newrows.length-1; i>=0; i--) {tbody.appendChild(newrows[i]);}
+    delete newrows;},
+  sort_numeric: function(a,b) {
+    aa = parseFloat(a[0].replace(/[^0-9.-]/g,''));
+    if (isNaN(aa)) aa = 0;
+    bb = parseFloat(b[0].replace(/[^0-9.-]/g,''));
+    if (isNaN(bb)) bb = 0;
+    return aa-bb;},
+  sort_alpha: function(a,b) {
+    if (a[0]==b[0]) return 0;
+    if (a[0]<b[0]) return -1;
+    return 1;},
+  sort_ddmm: function(a,b) {
+    mtch = a[0].match(sorttable.DATE_RE);
+    y = mtch[3]; m = mtch[2]; d = mtch[1];
+    if (m.length == 1) m = '0'+m;
+    if (d.length == 1) d = '0'+d;
+    dt1 = y+m+d;
+    mtch = b[0].match(sorttable.DATE_RE);
+    y = mtch[3]; m = mtch[2]; d = mtch[1];
+    if (m.length == 1) m = '0'+m;
+    if (d.length == 1) d = '0'+d;
+    dt2 = y+m+d;
+    if (dt1==dt2) return 0;
+    if (dt1<dt2) return -1;
+    return 1;},
+  sort_mmdd: function(a,b) {
+    mtch = a[0].match(sorttable.DATE_RE);
+    y = mtch[3]; d = mtch[2]; m = mtch[1];
+    if (m.length == 1) m = '0'+m;
+    if (d.length == 1) d = '0'+d;
+    dt1 = y+m+d;
+    mtch = b[0].match(sorttable.DATE_RE);
+    y = mtch[3]; d = mtch[2]; m = mtch[1];
+    if (m.length == 1) m = '0'+m;
+    if (d.length == 1) d = '0'+d;
+    dt2 = y+m+d;
+    if (dt1==dt2) return 0;
+    if (dt1<dt2) return -1;
+    return 1;},
+  shaker_sort: function(list, comp_func) {
+    var b = 0;
+    var t = list.length - 1;
+    var swap = true;
+    while(swap) {
+        swap = false;
+        for(var i = b; i < t; ++i) {
+            if ( comp_func(list[i], list[i+1]) > 0 ) {
+                var q = list[i]; list[i] = list[i+1]; list[i+1] = q;
+                swap = true;}} 
+        t--;
+        if (!swap) break;
+        for(var i = t; i > b; --i) {
+            if ( comp_func(list[i], list[i-1]) < 0 ) {
+                var q = list[i]; list[i] = list[i-1]; list[i-1] = q;
+                swap = true;}}
+        b++;}}}
+if (document.addEventListener) {document.addEventListener("DOMContentLoaded", sorttable.init, false);}
+if (/WebKit/i.test(navigator.userAgent)) {var _timer = setInterval(function() {if (/loaded|complete/.test(document.readyState)) {sorttable.init();}}, 10);}
+window.onload = sorttable.init;
+function dean_addEvent(element, type, handler) {
+  if (element.addEventListener) {element.addEventListener(type, handler, false);} 
+  else {
+    if (!handler.$$guid) handler.$$guid = dean_addEvent.guid++;
+    if (!element.events) element.events = {};
+    var handlers = element.events[type];
+    if (!handlers) {
+      handlers = element.events[type] = {};
+      if (element["on" + type]) {
+        handlers[0] = element["on" + type];}}
+    handlers[handler.$$guid] = handler;
+    element["on" + type] = handleEvent;}};
+dean_addEvent.guid = 1;
+function removeEvent(element, type, handler) {
+  if (element.removeEventListener) {element.removeEventListener(type, handler, false);} 
+  else {
+    if (element.events && element.events[type]) {
+      delete element.events[type][handler.$$guid];}}};
+function handleEvent(event) {
+  var returnValue = true;
+  event = event || fixEvent(((this.ownerDocument || this.document || this).parentWindow || window).event);
+  var handlers = this.events[event.type];
+  for (var i in handlers) {
+    this.$$handleEvent = handlers[i];
+    if (this.$$handleEvent(event) === false) {returnValue = false;}}
+  return returnValue;};
+function fixEvent(event) {
+  event.preventDefault = fixEvent.preventDefault;
+  event.stopPropagation = fixEvent.stopPropagation;
+  return event;};
+fixEvent.preventDefault = function() {this.returnValue = false;};
+fixEvent.stopPropagation = function() {this.cancelBubble = true;}
+if (!Array.forEach) {
+  Array.forEach = function(array, block, context) {
+    for (var i = 0; i < array.length; i++) {
+      block.call(context, array[i], i, array);}};}
+Function.prototype.forEach = function(object, block, context) {
+  for (var key in object) {
+    if (typeof this.prototype[key] == "undefined") {
+      block.call(context, object[key], key, object);}}};
+String.forEach = function(string, block, context) {
+  Array.forEach(string.split(""), function(chr, index) {
+    block.call(context, chr, index, string);});};
+var forEach = function(object, block, context) {
+  if (object) {
+    var resolve = Object; 
+    if (object instanceof Function) {resolve = Function;} 
+    else if (object.forEach instanceof Function) {
+      object.forEach(block, context);
+      return;} 
+    else if (typeof object == "string") {resolve = String;} 
+    else if (typeof object.length == "number") {resolve = Array;}
+    resolve.forEach(object, block, context);}};
+</script>
+</body>
+</html>

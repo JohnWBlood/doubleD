@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://use.fontawesome.com/5c3a1c408a.js"></script>
 	<title>Test</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
@@ -12,13 +12,16 @@
 		h3 {color: #08FFF0; font-family: 'Black Ops One', cursive; font-size: 30px;}
 		button {font-size:18px; border:none; background-color:#000000; color:#FFFFFF; padding: 0px; margin:0px;}
 		button:hover {background-color:#08FFF0; color:#000000;}
-		table.sortable thead {background-color:#313030; color:#FFFFFF; font-weight: bold; cursor: default;}
+		table.sortable thead {background-color:#313030; color:#FFFFFF !important; font-weight: bold; cursor: default;}
+    td {color:#FFFFFF;}
 		.w3-button:hover  {background-color:#08FFF0 !important; color:#000000 !important;}
 		.modal {display: none; position: fixed; z-index: 1; padding-top: 5px; left: 0 top: 0 width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.95);}
 		.modal-content {margin: auto; padding: 50px; border: none; width: 70%; height:70%; text-align:center;}
 		.close {color: #aaaaaa; font-size: 35px; font-weight: bold; width:100%; display:inline-block;}
 		.close:hover,
 		.close:focus {color: #08FFF0; text-decoration: none; cursor: pointer;}
+    tr:nth-child(odd) {background-color: #222222;}
+tr:nth-child(even) {background-color: #5C5C5C;}
 	</style>
 </head>
 <body>
@@ -26,43 +29,190 @@
 <div id="myModal" class="modal">
   <div class="modal-content">
 	<div class="w3-container">
-	<div id="Modal1" class="w3-container tab" style="display:none">
-		<i class="fa fa-user"style="font-size:250px;color:#08FFF0;"></i>
-	  <h1>XX,XXX Widgets</h1>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+
+	<div id="Modal1" class="w3-container tab" style="display:none;">
+    <img src="https://johnwblood.github.io/doubleD/Gov_Ron_DeSantis_Portrait.jpg" style="height:250px;">
+	  <h1>Ron Desantis</h1>
+	  <p>Ronald Dion DeSantis (born September 14, 1978) is an American attorney, naval officer, and Republican politician. He has served as the 46th governor of Florida since January 8, 2019, and he represented Florida's 6th congressional district in Congress from 2013 to 2018. After graduating from Yale University and Harvard Law School, DeSantis served as an officer and attorney in the Judge Advocate General's Corps, U.S. Navy (JAG).</p>
 	</div>
+
+
+
 	<div id="Modal2" class="w3-container tab" style="display:none">
-		<i class="fa fa-user"style="font-size:250px;color:#08FFF0;"></i>
-	  <h1>XXX,XXX Widgets</h1>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+    <img src="https://johnwblood.github.io/doubleD/1920px-Bill_Posey_Official_Portrait.jpg" style="height:250px;">
+	  <h1>Rick Scott</h1>
+	  <p>Richard Lynn Scott (né Myers, December 1, 1952) is an American politician serving as the junior United States Senator from Florida since 2019.[5][6] A member of the Republican Party, he previously served as the 45th governor of Florida from 2011 to 2019.</p> 
 	</div>
+
+
+
+
+  <div id="Modal3" class="w3-container tab" style="display:none">
+    <img src="https://johnwblood.github.io/doubleD/1920px-Senator_Rubio_official_portrait.jpg" style="height:250px;">
+    <h1>Marco Rubio</h1>
+    <p>Marco Antonio Rubio (born May 28, 1971) is an American politician serving as the senior United States senator from Florida. A Republican, he previously served as speaker of the Florida House of Representatives. Rubio unsuccessfully sought the Republican nomination for president of the United States in 2016, winning presidential primaries in the State of Minnesota, the District of Columbia, and the Commonwealth of Puerto Rico.</p>
+  </div>
+
+
+
+  <div id="Modal4" class="w3-container tab" style="display:none">
+    <i class="fa fa-user"style="font-size:250px;color:#08FFF0;"></i>
+    <h1>20,000 Employees</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+  </div>
+
+
+
+
+
+  <div id="Modal5" class="w3-container tab" style="display:none">
+    <i class="fa fa-user"style="font-size:250px;color:#08FFF0;"></i>
+    <h1>20,000 Residents</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+
+
+  <div id="Modal6" class="w3-container tab" style="display:none">
+    <i class="fa fa-user"style="font-size:250px;color:#08FFF0;"></i>
+    <h1>$40,000,000 Revenue</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+  </div>
+
+
+
+
+
+  <div id="Modal7" class="w3-container tab" style="display:none">
+    <i class="fa fa-user"style="font-size:250px;color:#08FFF0;"></i>
+    <h1>$3,000,000 Impact</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 <span class="close"> <i class="fa fa-times-circle"> Close</i>     </span>
   </div>
 </div>
-	<h1>Title</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	<h2> Subtitle</h2>
-	<button id="myBtn" style="background-color: rgba(0,0,0,0); border: none;"> <i class="fa fa-users"style="font-size:18px;color:#08FFF0;"> XX,XXXX Widgets</i> </button>
+
+
+
+
+
+	<h1>Florida</h1>
+	<h2> Governor</h2>
+	<button id="myBtn" style="background-color: rgba(0,0,0,0); border: none;"> <i class="fa fa-user" style="font-size:18px;color:#08FFF0;">  <span style ="color:#FFFFFF; font-size: 20px;"> Ron Desantis </span> </i> </button>
 	<br>
+	<h2>Senators</h2>
+	<button id="myBtn2" style="background-color: rgba(0,0,0,0); border: none;"> <i class="fa fa-user" style="font-size:18px;color:#08FFF0;">  <span style ="color:#FFFFFF; font-size: 20px;"> Rick Scott </span> </i></button>
+
+<button id="myBtn3" style="background-color: rgba(0,0,0,0); border: none; float: right;"> <i class="fa fa-user" style="font-size:18px;color:#08FFF0; ">  <span style ="color:#FFFFFF; font-size: 20px; padding-right: 50px; "> Marco Rubio </span> </i></button>
+
 	<br>
-	<button id="myBtn2" style="background-color: rgba(0,0,0,0); border: none;"> <i class="fa fa-users"style="font-size:18px;color:#08FFF0;"> XXX,XXX Widgets</i></button>
-	<br>
-	<br>
+	
+  <h2>L3Harris In Florida</h2>
+  <button id="myBtn4" style="background-color: rgba(0,0,0,0); border: none;"> <i class="fa fa-users" style="font-size:18px;color:#08FFF0;">  <span style ="color:#FFFFFF; font-size: 20px;"> 20,000 Employees </span> </i></button>
+  <button id="myBtn5" style="background-color: rgba(0,0,0,0); border: none;  float: right;"> <i class="fa fa-users" style="font-size:18px;color:#08FFF0;">  <span style ="color:#FFFFFF; font-size: 20px; padding-right: 15px;"> 20,000 Residents     </span> </i></button>
+  <br>
+  <br>
+
+
+  <button id="myBtn6" style="background-color: rgba(0,0,0,0); border: none;"> <i class="fa fa-money" style="font-size:18px;color:#08FFF0;">  <span style ="color:#FFFFFF; font-size: 20px;"> $40,000,000 Revenue </span> </i></button>
+
+
+  <button id="myBtn7" style="background-color: rgba(0,0,0,0); border: none;  float: right;"> <i class="fa fa-dollar" style="font-size:18px;color:#08FFF0;"> <span style ="color:#FFFFFF; font-size: 20px; padding-right: 5px;"> $3,000,000 Impact </span> </i></button>
+  <br>
+  <br>
+
+
+
+
+
 	<div class="w3-container" style="border:double; border-color: #2A2A35; background-color: rgba(0,0,0,.3);">
 	<div class="w3-bar w3-black" style = "background-color: #000000; height:25px">
-	  <button class="w3-bar-item w3-button" id="tabButton1" onclick="openTab('Tab1', 'tabButton1')" style="border:none !important; width:95px; height: 100%; background-color: #03A792; color:#000000;">Tab 1</button>
-	  <button class="w3-bar-item w3-button" id="tabButton2" onclick="openTab('Tab2', 'tabButton2')" style="border:none !important; width:95px; height: 100%">Tab 2</button>
-	  <button class="w3-bar-item w3-button" id="tabButton3" onclick="openTab('Tab3', 'tabButton3')" style="border:none !important; width:95px; height: 100%">Tab 3</button>
-	  <button class="w3-bar-item w3-button" id="tabButton4" onclick="openTab('Tab4', 'tabButton4')" style="border:none !important; width:95px; height: 100%">Tab 4</button>
+	  <button class="w3-bar-item w3-button" id="tabButton1" onclick="openTab('Tab1', 'tabButton1')" style="border:none !important; width:95px; height: 100%; background-color: #03A792; color:#000000;">Locations</button>
+	  <button class="w3-bar-item w3-button" id="tabButton2" onclick="openTab('Tab2', 'tabButton2')" style="border:none !important; width:95px; height: 100%">Programs</button>
+	  <button class="w3-bar-item w3-button" id="tabButton3" onclick="openTab('Tab3', 'tabButton3')" style="border:none !important; width:95px; height: 100%">Legislation</button>
+	  <button class="w3-bar-item w3-button" id="tabButton4" onclick="openTab('Tab4', 'tabButton4')" style="border:none !important; width:95px; height: 100%">State Info</button>
 	</div>
 	<div id="Tab1" class="w3-container tab" style="padding-left: 10px; padding-right: 10px;">
-	  <h2 style="text-align: center;">Tab 1 Title</h2>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <br>
+
+    <table class="sortable">
+      <tr>
+        <th style="width:80px;">Location</th>
+        <th style="width:80px;">District</th>
+        <th style="width:80px;">Employees</th>
+        <th style="width:80px;">Revenue</th>
+      </tr>
+      <tr>
+        <td>Corporate Headquarters</td>
+        <td>8</td>
+        <td>5,000</td>
+        <td>$60,000,000</td>
+      </tr>
+      <tr>
+        <td>High Technology Center - Palm Bay</td>
+        <td>8</td>
+        <td>6,000</td>
+        <td>$80,000,000</td>
+      </tr>
+      <tr>
+        <td>Malabar</td>
+        <td>8</td>
+        <td>2,000</td>
+        <td>$20,000,000</td>
+      </tr>
+
+      <tr>
+        <td>Miami</td>
+        <td>12</td>
+        <td>5,000</td>
+        <td>$60,000,000</td>
+      </tr>
+      <tr>
+        <td>Orlando</td>
+        <td>4</td>
+        <td>6,000</td>
+        <td>$80,000,000</td>
+      </tr>
+      <tr>
+        <td>Tampa</td>
+        <td>2</td>
+        <td>2,000</td>
+        <td>$20,000,000</td>
+      </tr>
+
+
+
+
+    </table>
 	</div>
 	<div id="Tab2" class="w3-container tab" style="display:none; padding-left: 10px; padding-right: 10px;">
-	  <h2 style="text-align: center;">Tab 2 Title</h2>
-	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 	  <table class="sortable">
   		<tr>
   			<th style="width:80px;">Col 1</th>
@@ -97,11 +247,11 @@
 	  </table>
 	</div>
 	<div id="Tab3" class="w3-container tab" style="display:none; padding-left: 10px; padding-right: 10px;">
-	  <h2 style="text-align: center;">Tab 3 title</h2>
+	  <h2 style="text-align: center;">Legislative Issue</h2>
 	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
 	<div id="Tab4" class="w3-container tab" style="display:none; padding-left: 10px; padding-right: 10px;">
-	  <h2 style="text-align: center;">Tab 4 title</h2>
+	  <h2 style="text-align: center;">L3Harris and Florida</h2>
 	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
 </div>
@@ -124,20 +274,114 @@ function openTab(tabName, tabButton) {
   for (i = 0; i < x.length; i++) {x[i].style.display = "none";}
   document.getElementById(tabName).style.display = "block";}
 
+
+
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 var btn2 = document.getElementById("myBtn2");
+var btn3 = document.getElementById("myBtn3");
+var btn4 = document.getElementById("myBtn4");
+var btn5 = document.getElementById("myBtn5");
+var btn6 = document.getElementById("myBtn6");
+var btn7 = document.getElementById("myBtn7");
+
+
+
 var span = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
   modal.style.display = "block";
   document.getElementById("Modal1").style.display = "block";
-  document.getElementById("Modal2").style.display = "none";}
+  document.getElementById("Modal2").style.display = "none";
+  document.getElementById("Modal3").style.display = "none";
+  document.getElementById("Modal4").style.display = "none";
+  document.getElementById("Modal5").style.display = "none";
+  document.getElementById("Modal6").style.display = "none";
+  document.getElementById("Modal7").style.display = "none";
+}
+
+
+
 btn2.onclick = function() {
   modal.style.display = "block";
-   document.getElementById("Modal1").style.display = "none";
-  document.getElementById("Modal2").style.display = "block";}
+  document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "block";
+  document.getElementById("Modal3").style.display = "none";
+  document.getElementById("Modal4").style.display = "none";
+  document.getElementById("Modal5").style.display = "none";
+  document.getElementById("Modal6").style.display = "none";
+  document.getElementById("Modal7").style.display = "none";
+}
+
+btn3.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "none";
+  document.getElementById("Modal3").style.display = "block";
+  document.getElementById("Modal4").style.display = "none";
+  document.getElementById("Modal5").style.display = "none";
+  document.getElementById("Modal6").style.display = "none";
+  document.getElementById("Modal7").style.display = "none";
+}
+
+
+btn4.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "none";
+  document.getElementById("Modal3").style.display = "none";
+  document.getElementById("Modal4").style.display = "block";
+  document.getElementById("Modal5").style.display = "none";
+  document.getElementById("Modal6").style.display = "none";
+  document.getElementById("Modal7").style.display = "none";
+}
+
+
+
+btn5.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "none";
+  document.getElementById("Modal3").style.display = "none";
+  document.getElementById("Modal4").style.display = "none";
+  document.getElementById("Modal5").style.display = "block";
+  document.getElementById("Modal6").style.display = "none";
+  document.getElementById("Modal7").style.display = "none";
+}
+
+btn6.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "none";
+  document.getElementById("Modal3").style.display = "none";
+  document.getElementById("Modal4").style.display = "none";
+  document.getElementById("Modal5").style.display = "none";
+  document.getElementById("Modal6").style.display = "block";
+  document.getElementById("Modal7").style.display = "none";
+}
+
+
+btn7.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("Modal1").style.display = "none";
+  document.getElementById("Modal2").style.display = "none";
+  document.getElementById("Modal3").style.display = "none";
+  document.getElementById("Modal4").style.display = "none";
+  document.getElementById("Modal5").style.display = "none";
+  document.getElementById("Modal6").style.display = "none";
+  document.getElementById("Modal7").style.display = "block";
+}
+
+
+
 span.onclick = function() {modal.style.display = "none";}
 window.onclick = function(event) {if (event.target == modal) {modal.style.display = "none";}}
+
+
+
+
+
+
+
 
 var stIsIE = /*@cc_on!@*/false;
 sorttable = {
