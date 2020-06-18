@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <NetworkLinkControl>
+    <Update>
+      <targetHref>https://johnwblood.github.io/doubleD/NetworkLinkTest.kml</targetHref>
+      <Change>
+        <Placemark targetId="countiesFolder">
+          <visibility>1</visibility>
+          <!-- coordinates remain the same -->
+        </Placemark>
+
+        <Placemark targetId="statesFolder">
+          <visibility>0</visibility>
+          <!-- coordinates remain the same -->
+        </Placemark>
+
+        <Placemark targetId="countriesFolder">
+          <visibility>0</visibility>
+          <!-- coordinates remain the same -->
+        </Placemark>
+      </Change>
+    </Update>
+  </NetworkLinkControl>
+</kml>
