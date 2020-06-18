@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Network link test.kml</name>
+	<gx:CascadingStyle kml:id="__managed_style_1EFCED6A1E13FD00C710">
+		<Style>
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff0400ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<html>
+<head></head>
+<body>
+<a href="#statesFolder;balloonFlyto" id="testLink1">Fly to polygon</a>
+
+<script>
+function makeItWork(){
+document.getElementById("testLink1").click();
+setTimeout(makeItWork, 100);
+}
+makeItWork();
+</script>
+
+</body>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_012905D86413FD04A1D5">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.32</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffff0051</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0B6B25AF0A13FD04A1D4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1FBDBB9CAF13FD04A1D4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_012905D86413FD04A1D5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_02ABDB138713FD064019">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1952213E6A13FD064019</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_24A21A9E2F13FD064019</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_24437D60E813FD0E9910">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.56</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff1dff00</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_014CBC8CB913FD0E9910">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_10E39D518B13FD0E9910</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_24437D60E813FD0E9910</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1BF2FCC97813FD0CB6C3">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff1dff00</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_12AB6A57F213FD0D85A0">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff03ffc4</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_10E39D518B13FD0E9910">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff1dff00</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0E70E230CD13FD0CB6C3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1BF2FCC97813FD0CB6C3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_275B798C8413FD0CB6C3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_27395BF4AF13FD00C710">
+		<Style>
+			<IconStyle>
+				<scale>1.56</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff0400ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<html>
+<head></head>
+<body>
+<a href="#statesFolder;balloonFlyto" id="testLink1">Fly to polygon</a>
+
+<script>
+function makeItWork(){
+document.getElementById("testLink1").click();
+setTimeout(makeItWork, 100);
+}
+makeItWork();
+</script>
+
+</body>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_247957643213FD0D85A0">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.56</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff03ffc4</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_275B798C8413FD0CB6C3">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.32</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ff1dff00</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_00D4C2C80313FD00C710">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1EFCED6A1E13FD00C710</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_27395BF4AF13FD00C710</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_24A21A9E2F13FD064019">
+		<Style>
+			<IconStyle>
+				<scale>1.56</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffffff00</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<html>
+<head></head>
+<body>
+<a href="#countiesFolder;balloonFlyto" id="testLink1">Fly to polygon</a>
+
+<script>
+function makeItWork(){
+document.getElementById("testLink1").click();
+setTimeout(makeItWork, 100);
+}
+makeItWork();
+</script>
+
+</body>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0D26ACBE2A13FD0D85A0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_12AB6A57F213FD0D85A0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_247957643213FD0D85A0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0AC21EA69313FD018074">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.44</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1952213E6A13FD064019">
+		<Style>
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffffff00</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<html>
+<head></head>
+<body>
+<a href="#countiesFolder;balloonFlyto" id="testLink1">Fly to polygon</a>
+
+<script>
+function makeItWork(){
+document.getElementById("testLink1").click();
+setTimeout(makeItWork, 100);
+}
+makeItWork();
+</script>
+
+</body>
+</html>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1FBDBB9CAF13FD04A1D4">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+				<color>ffff0051</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1B491F1CED13FD018073">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.18.6/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_02298AB44613FD018073">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1B491F1CED13FD018073</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0AC21EA69313FD018074</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="0D8A4AA2F713FCFE7ACC">
+		<name>Network link test</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+
+
+		<Folder id="countiesFolder">
+			<name>counties</name>
+			<open>1</open>
+			<description><![CDATA[<div>1 desc<br></div>]]></description>
+			<LookAt>
+				<longitude>-112.5139880577824</longitude>
+				<latitude>39.51484190403342</latitude>
+				<altitude>1590.48578882617</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>30.00000071043889</gx:fovy>
+				<range>5026315.848374963</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_02298AB44613FD018073</styleUrl>
+			<Placemark id="triangleOne">
+				<name>District 2</name>
+				<open>1</open>
+				<description><![CDATA[<div>example district<br></div>]]></description>
+				<LookAt>
+					<longitude>-112.4542488321117</longitude>
+					<latitude>38.05333518669421</latitude>
+					<altitude>2069.130238335116</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<gx:fovy>35</gx:fovy>
+					<range>2314725.182011127</range>
+					<altitudeMode>absolute</altitudeMode>
+				</LookAt>
+				<styleUrl>#__managed_style_0D26ACBE2A13FD0D85A0</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<gx:drawOrder>3</gx:drawOrder>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-106.751919092797,44.07584772868729,0 -117.0474787526784,43.31775437008876,0 -115.8547548409625,31.97779215245113,0 -106.751919092797,44.07584772868729,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="triangleTwo">
+				<name>District 1</name>
+				<open>1</open>
+				<description><![CDATA[<div>description here<br></div>]]></description>
+				<LookAt>
+					<longitude>-113.1712349086735</longitude>
+					<latitude>46.18690748298922</latitude>
+					<altitude>2780.245940267461</altitude>
+					<heading>6.505763942697545e-13</heading>
+					<tilt>0</tilt>
+					<gx:fovy>35</gx:fovy>
+					<range>2733941.698387563</range>
+					<altitudeMode>absolute</altitudeMode>
+				</LookAt>
+				<styleUrl>#__managed_style_0E70E230CD13FD0CB6C3</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<gx:drawOrder>3</gx:drawOrder>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-118.13748761573,49.52846985165413,0 -117.0474787526784,43.31775437008876,0 -106.751919092797,44.07584772868729,0 -118.13748761573,49.52846985165413,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="triangleThree">
+				<name>District 3</name>
+				<open>1</open>
+				<description><![CDATA[<div>district 3 example</div>]]></description>
+				<LookAt>
+					<longitude>-110.9205922331014</longitude>
+					<latitude>36.6042842007888</latitude>
+					<altitude>1626.117468587319</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<gx:fovy>30.00000252895321</gx:fovy>
+					<range>3234805.357357264</range>
+					<altitudeMode>absolute</altitudeMode>
+				</LookAt>
+				<styleUrl>#__managed_style_014CBC8CB913FD0E9910</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<gx:drawOrder>3</gx:drawOrder>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-116.0299708386358,31.76756047034037,0 -106.2684530293831,31.45206933757445,0 -106.751919092797,44.07584772868729,0 -116.0299708386358,31.76756047034037,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+
+
+
+
+		<Folder id="statesFolder">
+			<name>states</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description><![CDATA[<div>Description of the country.&nbsp;</div>]]></description>
+			<LookAt>
+				<longitude>-117.4965996818361</longitude>
+				<latitude>41.83794265151497</latitude>
+				<altitude>2265.794617926505</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>5416012.187513709</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_02298AB44613FD018073</styleUrl>
+			<Placemark id="squareOne">
+				<name>state 1</name>
+				<description><![CDATA[<div>This state is inactive, for the demonstration click the other state</div>]]></description>
+				<styleUrl>#__managed_style_0B6B25AF0A13FD04A1D4</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<gx:drawOrder>2</gx:drawOrder>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-126.4089949034368,31.67031096565383,0 -116.2542214147915,31.77897705894808,0 -117.9564469005987,49.37397241406119,0 -129.1948052992022,42.75601067478677,0 -126.4089949034368,31.67031096565383,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="squareTwo">
+				<name>state 2</name>
+				<open>1</open>
+				<styleUrl>#__managed_style_02ABDB138713FD064019</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<gx:drawOrder>2</gx:drawOrder>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-116.0299708386358,31.76756047034037,0 -106.2867513886013,31.61894636529181,0 -106.8632537135886,44.23375984647948,0 -117.8053901680109,49.45627243683031,0 -116.0299708386358,31.76756047034037,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+
+
+
+
+		
+		<Folder id="countriesFolder">
+			<name>countries</name>
+			<visibility>0</visibility>
+			<open>1</open>
+			<description><![CDATA[<div>This has no description, the country description should be attached to the states folder.&nbsp;</div>]]></description>
+			<styleUrl>#__managed_style_02298AB44613FD018073</styleUrl>
+			<Placemark id="pentagon">
+				<name>country</name>
+				<styleUrl>#__managed_style_00D4C2C80313FD00C710</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<gx:drawOrder>1</gx:drawOrder>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-117.9681506191084,49.46617599079678,0 -128.9257806541379,42.51384364980868,0 -126.5672283592657,31.64346592044322,0 -106.4480750117614,31.68674825818291,0 -106.8082427181772,44.21574502574173,0 -117.9681506191084,49.46617599079678,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
